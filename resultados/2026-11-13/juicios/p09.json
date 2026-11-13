@@ -1,0 +1,21 @@
+{
+  "X": { "responsive": 4, "jerarquia": 5, "intencion": 5, "estados": 4, "accesibilidad": 5, "graficos": 4, "formularios": null, "calidad_visual": 4 },
+  "Y": { "responsive": 5, "jerarquia": 4, "intencion": 3, "estados": 1, "accesibilidad": 4, "graficos": 4, "formularios": null, "calidad_visual": 4 },
+  "preferencia": "X",
+  "motivo": "X lleva al detalle de forma obvia: cada dimensión, cada área y la tarjeta de mayor caída abren un drawer con foco atrapado, y los comentarios se filtran por área y tema. Además trata los estados de error y vacío y suma la fila de total empresa. Y se lee muy bien y en móvil pasa la tabla a tarjetas con mejor criterio, pero es una pantalla estática: no tiene drill-down ni estados de carga, vacío o error.",
+  "defectos_X": [
+    "La lista de comentarios muestra textos repetidos sin agruparlos ni contarlos («La carga en temporada alta es excesiva» aparece dos veces seguidas en las tres capturas)",
+    "A 390 px la matriz por área queda en scroll horizontal interno con las columnas cortadas (se ve «Carga c» truncado) en vez de pasar a tarjetas",
+    "No marca las celdas con base baja (n = 15, n = 16, n = 19) y en el mapa de calor colorea igual una celda de 15 respuestas que una de 119",
+    "En escritorio la tarjeta «Puntaje por dimensión» deja un hueco blanco grande bajo el eje para igualar la altura de Comentarios",
+    "No hay estado de carga: el código solo distingue error, vacío y ok"
+  ],
+  "defectos_Y": [
+    "No trata ningún estado: importa clima.json directamente y no tiene carga, vacío ni error (App.tsx no contiene nada de esto)",
+    "No hay drill-down: ni las dimensiones ni las áreas ni la franja de «Mayor caída» se pueden pulsar para ver el detalle",
+    "A 390 px el gráfico de dimensiones queda comprimido en unos 80 px, los puntos se solapan (Compensación, Carga de trabajo) y no se lee la magnitud",
+    "La leyenda dice «Escala 1–5» pero el eje va de 2,5 a 4,5 sin avisar que está recortado",
+    "Los chips de filtro de comentarios miden 36 px de alto (min-h-9), por debajo del área táctil recomendada en móvil",
+    "En escritorio queda un hueco blanco grande bajo el gráfico de dimensiones"
+  ]
+}

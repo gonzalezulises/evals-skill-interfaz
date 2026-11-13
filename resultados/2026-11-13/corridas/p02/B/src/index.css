@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* Andes Logística no tiene design system propio: tokens neutros estilo shadcn,
+   con la convención de --chart-N del kit "Charts & KPI Cards" de 21st.dev (id 33507). */
+:root {
+  --background: oklch(0.985 0.002 250);
+  --foreground: oklch(0.21 0.02 260);
+  --card: oklch(1 0 0);
+  --card-foreground: var(--foreground);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--foreground);
+  --muted: oklch(0.955 0.005 250);
+  --muted-foreground: oklch(0.47 0.02 260);
+  --accent: oklch(0.95 0.008 250);
+  --border: oklch(0.91 0.006 250);
+  --ring: oklch(0.55 0.15 255);
+
+  /* Series de facturado / cobrado */
+  --chart-1: oklch(0.72 0.03 255); /* facturado: gris azulado */
+  --chart-2: oklch(0.5 0.16 255); /* cobrado: azul */
+
+  /* Rampa de antigüedad: más oscuro y más cálido = más riesgo */
+  --age-1: oklch(0.8 0.09 160);
+  --age-2: oklch(0.82 0.12 85);
+  --age-3: oklch(0.7 0.15 50);
+  --age-4: oklch(0.52 0.18 27);
+
+  --danger: oklch(0.5 0.19 27);
+  --danger-soft: oklch(0.96 0.03 27);
+  --good: oklch(0.48 0.12 160);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: oklch(0.17 0.01 260);
+    --foreground: oklch(0.95 0.005 250);
+    --card: oklch(0.21 0.012 260);
+    --popover: oklch(0.24 0.012 260);
+    --muted: oklch(0.26 0.012 260);
+    --muted-foreground: oklch(0.72 0.015 255);
+    --accent: oklch(0.28 0.015 260);
+    --border: oklch(0.32 0.012 260);
+    --ring: oklch(0.7 0.13 255);
+    --chart-1: oklch(0.5 0.03 255);
+    --chart-2: oklch(0.72 0.14 255);
+    --age-1: oklch(0.62 0.1 160);
+    --age-2: oklch(0.75 0.12 85);
+    --age-3: oklch(0.68 0.15 50);
+    --age-4: oklch(0.62 0.19 27);
+    --danger: oklch(0.75 0.15 27);
+    --danger-soft: oklch(0.3 0.06 27);
+    --good: oklch(0.75 0.12 160);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-good: var(--good);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  color-scheme: light dark;
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}

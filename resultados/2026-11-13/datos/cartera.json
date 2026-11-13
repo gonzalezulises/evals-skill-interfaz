@@ -1,0 +1,516 @@
+{
+  "clientes": [
+    {
+      "cliente": "Cliente A1 S.A.",
+      "saldo0a30": 4748.15,
+      "saldo31a60": 9328.38,
+      "saldo61a90": 11152.34,
+      "saldoMas90": 0,
+      "limiteCredito": 142252.44
+    },
+    {
+      "cliente": "Cliente B1 S.A.",
+      "saldo0a30": 9504.06,
+      "saldo31a60": 18433.89,
+      "saldo61a90": 11658.76,
+      "saldoMas90": 13631.12,
+      "limiteCredito": 99763.34
+    },
+    {
+      "cliente": "Cliente C1 S.A.",
+      "saldo0a30": 1924.23,
+      "saldo31a60": 7618.28,
+      "saldo61a90": 8424.56,
+      "saldoMas90": 0,
+      "limiteCredito": 99056.5
+    },
+    {
+      "cliente": "Cliente D1 S.A.",
+      "saldo0a30": 29992.65,
+      "saldo31a60": 6616.64,
+      "saldo61a90": 8308.25,
+      "saldoMas90": 9401.54,
+      "limiteCredito": 131726.53
+    },
+    {
+      "cliente": "Cliente E1 S.A.",
+      "saldo0a30": 697.72,
+      "saldo31a60": 7521.43,
+      "saldo61a90": 11471.78,
+      "saldoMas90": 23893.69,
+      "limiteCredito": 117326.16
+    },
+    {
+      "cliente": "Cliente F1 S.A.",
+      "saldo0a30": 5628.45,
+      "saldo31a60": 9319.09,
+      "saldo61a90": 1928.09,
+      "saldoMas90": 0,
+      "limiteCredito": 126234.64
+    },
+    {
+      "cliente": "Cliente G1 S.A.",
+      "saldo0a30": 25617.41,
+      "saldo31a60": 17295.22,
+      "saldo61a90": 5261.97,
+      "saldoMas90": 3025.63,
+      "limiteCredito": 134602.45
+    },
+    {
+      "cliente": "Cliente H1 S.A.",
+      "saldo0a30": 14421.02,
+      "saldo31a60": 2848.62,
+      "saldo61a90": 4923.56,
+      "saldoMas90": 27584.22,
+      "limiteCredito": 116740.75
+    },
+    {
+      "cliente": "Cliente I1 S.A.",
+      "saldo0a30": 20173.3,
+      "saldo31a60": 9627.6,
+      "saldo61a90": 2027.67,
+      "saldoMas90": 0,
+      "limiteCredito": 139325.37
+    },
+    {
+      "cliente": "Cliente J1 S.A.",
+      "saldo0a30": 36833.62,
+      "saldo31a60": 8678.23,
+      "saldo61a90": 8814.96,
+      "saldoMas90": 0,
+      "limiteCredito": 23588.37
+    },
+    {
+      "cliente": "Cliente K1 S.A.",
+      "saldo0a30": 32488.35,
+      "saldo31a60": 17859.42,
+      "saldo61a90": 481.14,
+      "saldoMas90": 0,
+      "limiteCredito": 98434.25
+    },
+    {
+      "cliente": "Cliente L1 S.A.",
+      "saldo0a30": 14594.33,
+      "saldo31a60": 1948.18,
+      "saldo61a90": 10457.27,
+      "saldoMas90": 0,
+      "limiteCredito": 110395.32
+    },
+    {
+      "cliente": "Cliente M1 S.A.",
+      "saldo0a30": 13566.73,
+      "saldo31a60": 6560.31,
+      "saldo61a90": 6759.22,
+      "saldoMas90": 0,
+      "limiteCredito": 148461.77
+    },
+    {
+      "cliente": "Cliente N1 S.A.",
+      "saldo0a30": 29117.35,
+      "saldo31a60": 19653.24,
+      "saldo61a90": 8637.89,
+      "saldoMas90": 0,
+      "limiteCredito": 134333.16
+    },
+    {
+      "cliente": "Cliente O1 S.A.",
+      "saldo0a30": 16417.82,
+      "saldo31a60": 1047.66,
+      "saldo61a90": 4957.28,
+      "saldoMas90": 7112.14,
+      "limiteCredito": 91006.53
+    },
+    {
+      "cliente": "Cliente P1 S.A.",
+      "saldo0a30": 21843.11,
+      "saldo31a60": 2187.46,
+      "saldo61a90": 11551.57,
+      "saldoMas90": 0,
+      "limiteCredito": 74994.16
+    },
+    {
+      "cliente": "Cliente Q1 S.A.",
+      "saldo0a30": 23047.72,
+      "saldo31a60": 16003.69,
+      "saldo61a90": 5196.78,
+      "saldoMas90": 0,
+      "limiteCredito": 115019.6
+    },
+    {
+      "cliente": "Cliente R1 S.A.",
+      "saldo0a30": 33234.24,
+      "saldo31a60": 15895.73,
+      "saldo61a90": 3834.52,
+      "saldoMas90": 0,
+      "limiteCredito": 138794.22
+    },
+    {
+      "cliente": "Cliente S1 S.A.",
+      "saldo0a30": 1538.37,
+      "saldo31a60": 9174.72,
+      "saldo61a90": 4873.95,
+      "saldoMas90": 0,
+      "limiteCredito": 131940.34
+    },
+    {
+      "cliente": "Cliente T1 S.A.",
+      "saldo0a30": 27216.99,
+      "saldo31a60": 996.26,
+      "saldo61a90": 2188,
+      "saldoMas90": 23354.07,
+      "limiteCredito": 33943.13
+    },
+    {
+      "cliente": "Cliente U1 S.A.",
+      "saldo0a30": 21880.85,
+      "saldo31a60": 11621.95,
+      "saldo61a90": 2370.4,
+      "saldoMas90": 0,
+      "limiteCredito": 42920.86
+    },
+    {
+      "cliente": "Cliente V1 S.A.",
+      "saldo0a30": 31846.1,
+      "saldo31a60": 1761.67,
+      "saldo61a90": 483.59,
+      "saldoMas90": 0,
+      "limiteCredito": 138194.36
+    },
+    {
+      "cliente": "Cliente W1 S.A.",
+      "saldo0a30": 13087.77,
+      "saldo31a60": 1450.3,
+      "saldo61a90": 4181.07,
+      "saldoMas90": 0,
+      "limiteCredito": 63330.7
+    },
+    {
+      "cliente": "Cliente X1 S.A.",
+      "saldo0a30": 5266.98,
+      "saldo31a60": 14925.46,
+      "saldo61a90": 5565.85,
+      "saldoMas90": 0,
+      "limiteCredito": 57962.56
+    },
+    {
+      "cliente": "Cliente Y1 S.A.",
+      "saldo0a30": 10479.61,
+      "saldo31a60": 7948.49,
+      "saldo61a90": 4180.57,
+      "saldoMas90": 16751.06,
+      "limiteCredito": 121340.95
+    },
+    {
+      "cliente": "Cliente Z1 S.A.",
+      "saldo0a30": 26465.38,
+      "saldo31a60": 11536.19,
+      "saldo61a90": 1584.29,
+      "saldoMas90": 0,
+      "limiteCredito": 57393.1
+    },
+    {
+      "cliente": "Cliente A2 S.A.",
+      "saldo0a30": 38071.09,
+      "saldo31a60": 8666.54,
+      "saldo61a90": 7457.27,
+      "saldoMas90": 0,
+      "limiteCredito": 63214.53
+    },
+    {
+      "cliente": "Cliente B2 S.A.",
+      "saldo0a30": 27148.72,
+      "saldo31a60": 8740.34,
+      "saldo61a90": 10436.52,
+      "saldoMas90": 0,
+      "limiteCredito": 125109.58
+    },
+    {
+      "cliente": "Cliente C2 S.A.",
+      "saldo0a30": 14482.5,
+      "saldo31a60": 10519.71,
+      "saldo61a90": 797.95,
+      "saldoMas90": 8285.38,
+      "limiteCredito": 76436.42
+    },
+    {
+      "cliente": "Cliente D2 S.A.",
+      "saldo0a30": 12083.03,
+      "saldo31a60": 14855.6,
+      "saldo61a90": 5050.94,
+      "saldoMas90": 19691.26,
+      "limiteCredito": 87261.31
+    },
+    {
+      "cliente": "Cliente E2 S.A.",
+      "saldo0a30": 23550.92,
+      "saldo31a60": 16209.44,
+      "saldo61a90": 2500.82,
+      "saldoMas90": 0,
+      "limiteCredito": 119628.4
+    },
+    {
+      "cliente": "Cliente F2 S.A.",
+      "saldo0a30": 4757.25,
+      "saldo31a60": 3583.25,
+      "saldo61a90": 9988.15,
+      "saldoMas90": 0,
+      "limiteCredito": 20003.03
+    },
+    {
+      "cliente": "Cliente G2 S.A.",
+      "saldo0a30": 2659.83,
+      "saldo31a60": 5032.27,
+      "saldo61a90": 5762.07,
+      "saldoMas90": 0,
+      "limiteCredito": 59560.06
+    },
+    {
+      "cliente": "Cliente H2 S.A.",
+      "saldo0a30": 30576.97,
+      "saldo31a60": 13362.76,
+      "saldo61a90": 8038.66,
+      "saldoMas90": 0,
+      "limiteCredito": 94900.83
+    },
+    {
+      "cliente": "Cliente I2 S.A.",
+      "saldo0a30": 15373.43,
+      "saldo31a60": 16162.04,
+      "saldo61a90": 2984.25,
+      "saldoMas90": 29102.07,
+      "limiteCredito": 79754.48
+    },
+    {
+      "cliente": "Cliente J2 S.A.",
+      "saldo0a30": 33635.13,
+      "saldo31a60": 5833.81,
+      "saldo61a90": 8767.61,
+      "saldoMas90": 0,
+      "limiteCredito": 58243.04
+    },
+    {
+      "cliente": "Cliente K2 S.A.",
+      "saldo0a30": 24568.77,
+      "saldo31a60": 13893.16,
+      "saldo61a90": 1206.03,
+      "saldoMas90": 0,
+      "limiteCredito": 31111.16
+    },
+    {
+      "cliente": "Cliente L2 S.A.",
+      "saldo0a30": 38101.63,
+      "saldo31a60": 18851.46,
+      "saldo61a90": 10412.84,
+      "saldoMas90": 21438.55,
+      "limiteCredito": 65096.42
+    },
+    {
+      "cliente": "Cliente M2 S.A.",
+      "saldo0a30": 19819.11,
+      "saldo31a60": 5245.15,
+      "saldo61a90": 5756.21,
+      "saldoMas90": 0,
+      "limiteCredito": 43917.57
+    },
+    {
+      "cliente": "Cliente N2 S.A.",
+      "saldo0a30": 31267.99,
+      "saldo31a60": 19089.63,
+      "saldo61a90": 8648.1,
+      "saldoMas90": 0,
+      "limiteCredito": 85528.89
+    },
+    {
+      "cliente": "Cliente O2 S.A.",
+      "saldo0a30": 24592.04,
+      "saldo31a60": 13307.31,
+      "saldo61a90": 5403.19,
+      "saldoMas90": 0,
+      "limiteCredito": 26344.24
+    },
+    {
+      "cliente": "Cliente P2 S.A.",
+      "saldo0a30": 2708.82,
+      "saldo31a60": 14749.25,
+      "saldo61a90": 11309.32,
+      "saldoMas90": 0,
+      "limiteCredito": 94920.14
+    },
+    {
+      "cliente": "Cliente Q2 S.A.",
+      "saldo0a30": 25370.33,
+      "saldo31a60": 16295.87,
+      "saldo61a90": 754.3,
+      "saldoMas90": 0,
+      "limiteCredito": 121434.74
+    },
+    {
+      "cliente": "Cliente R2 S.A.",
+      "saldo0a30": 21728.48,
+      "saldo31a60": 19693.14,
+      "saldo61a90": 8711.33,
+      "saldoMas90": 0,
+      "limiteCredito": 101633
+    },
+    {
+      "cliente": "Cliente S2 S.A.",
+      "saldo0a30": 11034.29,
+      "saldo31a60": 14253.1,
+      "saldo61a90": 8080.98,
+      "saldoMas90": 0,
+      "limiteCredito": 144538.31
+    },
+    {
+      "cliente": "Cliente T2 S.A.",
+      "saldo0a30": 23378.03,
+      "saldo31a60": 19411.69,
+      "saldo61a90": 4883.23,
+      "saldoMas90": 21217.47,
+      "limiteCredito": 20883.75
+    },
+    {
+      "cliente": "Cliente U2 S.A.",
+      "saldo0a30": 30511.67,
+      "saldo31a60": 4157.54,
+      "saldo61a90": 3512.66,
+      "saldoMas90": 0,
+      "limiteCredito": 58586.84
+    },
+    {
+      "cliente": "Cliente V2 S.A.",
+      "saldo0a30": 24874.98,
+      "saldo31a60": 17386.01,
+      "saldo61a90": 4461.99,
+      "saldoMas90": 22331.97,
+      "limiteCredito": 36283.42
+    },
+    {
+      "cliente": "Cliente W2 S.A.",
+      "saldo0a30": 29843.05,
+      "saldo31a60": 14191.41,
+      "saldo61a90": 3681.31,
+      "saldoMas90": 0,
+      "limiteCredito": 73337.83
+    },
+    {
+      "cliente": "Cliente X2 S.A.",
+      "saldo0a30": 35353.26,
+      "saldo31a60": 499.07,
+      "saldo61a90": 9186.64,
+      "saldoMas90": 25952.13,
+      "limiteCredito": 58778.25
+    },
+    {
+      "cliente": "Cliente Y2 S.A.",
+      "saldo0a30": 17393.07,
+      "saldo31a60": 8512.52,
+      "saldo61a90": 3512.94,
+      "saldoMas90": 11819.84,
+      "limiteCredito": 59505.46
+    },
+    {
+      "cliente": "Cliente Z2 S.A.",
+      "saldo0a30": 25785.97,
+      "saldo31a60": 17616.49,
+      "saldo61a90": 9215.01,
+      "saldoMas90": 0,
+      "limiteCredito": 33128.4
+    },
+    {
+      "cliente": "Cliente A3 S.A.",
+      "saldo0a30": 33344.3,
+      "saldo31a60": 11764.84,
+      "saldo61a90": 11273,
+      "saldoMas90": 0,
+      "limiteCredito": 93373.19
+    },
+    {
+      "cliente": "Cliente B3 S.A.",
+      "saldo0a30": 17139.05,
+      "saldo31a60": 10292.39,
+      "saldo61a90": 1654.23,
+      "saldoMas90": 0,
+      "limiteCredito": 24696.34
+    },
+    {
+      "cliente": "Cliente C3 S.A.",
+      "saldo0a30": 13588.57,
+      "saldo31a60": 4342.61,
+      "saldo61a90": 3665.28,
+      "saldoMas90": 26416.46,
+      "limiteCredito": 71356.42
+    },
+    {
+      "cliente": "Cliente D3 S.A.",
+      "saldo0a30": 30051.43,
+      "saldo31a60": 1220.69,
+      "saldo61a90": 8025.6,
+      "saldoMas90": 23695.91,
+      "limiteCredito": 124527.78
+    },
+    {
+      "cliente": "Cliente E3 S.A.",
+      "saldo0a30": 38722.09,
+      "saldo31a60": 4479.33,
+      "saldo61a90": 9373.71,
+      "saldoMas90": 0,
+      "limiteCredito": 80357.41
+    },
+    {
+      "cliente": "Cliente F3 S.A.",
+      "saldo0a30": 33099.26,
+      "saldo31a60": 15577.61,
+      "saldo61a90": 5929.32,
+      "saldoMas90": 25363.15,
+      "limiteCredito": 108096.03
+    },
+    {
+      "cliente": "Cliente G3 S.A.",
+      "saldo0a30": 6124.93,
+      "saldo31a60": 11849.35,
+      "saldo61a90": 2625.28,
+      "saldoMas90": 0,
+      "limiteCredito": 54119.79
+    },
+    {
+      "cliente": "Cliente H3 S.A.",
+      "saldo0a30": 13083.08,
+      "saldo31a60": 3440.24,
+      "saldo61a90": 4010.61,
+      "saldoMas90": 22976.42,
+      "limiteCredito": 95942.99
+    }
+  ],
+  "cobradoMensual": [
+    {
+      "mes": "2026-05",
+      "facturado": 408490.63,
+      "cobrado": 411665.21
+    },
+    {
+      "mes": "2026-06",
+      "facturado": 451743.16,
+      "cobrado": 489687.77
+    },
+    {
+      "mes": "2026-07",
+      "facturado": 429998.98,
+      "cobrado": 376726.28
+    },
+    {
+      "mes": "2026-08",
+      "facturado": 467275.87,
+      "cobrado": 425033.78
+    },
+    {
+      "mes": "2026-09",
+      "facturado": 453377.47,
+      "cobrado": 331543.15
+    },
+    {
+      "mes": "2026-10",
+      "facturado": 507016.57,
+      "cobrado": 350653.68
+    }
+  ]
+}

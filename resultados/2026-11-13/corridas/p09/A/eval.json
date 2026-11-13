@@ -1,0 +1,36 @@
+{
+  "id": "p09",
+  "cond": "A",
+  "compila": true,
+  "erroresTS": 0,
+  "verificadorOK": true,
+  "fallos": {
+    "scrollHorizontal": 0,
+    "erroresConsolaRed": 0,
+    "tactilChico": 0,
+    "sinNombre": 0,
+    "sinAlt": 0,
+    "textoChico": 0,
+    "porAncho": {}
+  },
+  "verificadorSalida": [
+    "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p09/A/_eval/capturas/"
+  ],
+  "lineasCodigo": 1038,
+  "herramientas": {
+    "llamadas21st": 4,
+    "corrioVerificador": 3,
+    "porHerramienta": {
+      "Read": 13,
+      "Bash": 12,
+      "Skill": 2,
+      "Skill:21st:21st-ui-build": 1,
+      "ToolSearch": 1,
+      "mcp__plugin_21st_21st__search": 3,
+      "mcp__plugin_21st_21st__get_component": 1,
+      "Skill:dataviz": 1,
+      "Write": 5,
+      "SubagentHandback": 1
+    }
+  }
+}

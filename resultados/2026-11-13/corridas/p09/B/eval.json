@@ -1,0 +1,41 @@
+{
+  "id": "p09",
+  "cond": "B",
+  "compila": true,
+  "erroresTS": 0,
+  "verificadorOK": false,
+  "fallos": {
+    "scrollHorizontal": 0,
+    "erroresConsolaRed": 0,
+    "tactilChico": 7,
+    "sinNombre": 0,
+    "sinAlt": 0,
+    "textoChico": 42,
+    "porAncho": {
+      "390": {
+        "tactilChico": 7
+      },
+      "1440": {
+        "textoChico": 42
+      }
+    }
+  },
+  "verificadorSalida": [
+    "FALLA (2)",
+    "- http://localhost:5917/ @390px: 7 controles < 44px: button «Todas» 65×36; button «Operaciones» 108×36; button «Bodega» 75×36; button «Flota» 58×36; button «Finanzas» 83×36",
+    "- http://localhost:5917/ @1440px: 42 elementos con texto < 12px"
+  ],
+  "lineasCodigo": 397,
+  "herramientas": {
+    "llamadas21st": 1,
+    "corrioVerificador": 0,
+    "porHerramienta": {
+      "Read": 12,
+      "Bash": 13,
+      "ToolSearch": 1,
+      "mcp__plugin_21st_21st__search": 1,
+      "Write": 1,
+      "SubagentHandback": 1
+    }
+  }
+}

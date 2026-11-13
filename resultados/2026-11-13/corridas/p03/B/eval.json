@@ -1,0 +1,40 @@
+{
+  "id": "p03",
+  "cond": "B",
+  "compila": true,
+  "erroresTS": 0,
+  "verificadorOK": false,
+  "fallos": {
+    "scrollHorizontal": 0,
+    "erroresConsolaRed": 0,
+    "tactilChico": 2,
+    "sinNombre": 0,
+    "sinAlt": 0,
+    "textoChico": 0,
+    "porAncho": {
+      "390": {
+        "tactilChico": 2
+      }
+    }
+  },
+  "verificadorSalida": [
+    "FALLA (1)",
+    "- http://localhost:5905/ @390px: 2 controles < 44px: input «» 1×1; input «» 1×1"
+  ],
+  "lineasCodigo": 868,
+  "herramientas": {
+    "llamadas21st": 2,
+    "corrioVerificador": 0,
+    "porHerramienta": {
+      "Read": 8,
+      "Bash": 17,
+      "ToolSearch": 2,
+      "mcp__plugin_21st_21st__search": 1,
+      "mcp__plugin_21st_21st__get_component": 1,
+      "Write": 9,
+      "mcp__playwright__browser_run_code_unsafe": 5,
+      "mcp__playwright__browser_close": 1,
+      "SubagentHandback": 1
+    }
+  }
+}

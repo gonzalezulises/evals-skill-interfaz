@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* Andes Logística no tiene design system propio: tokens neutros con acento verde azulado.
+   Contraste AA comprobado para texto sobre --surface en ambos modos. */
+:root {
+  color-scheme: light;
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --surface-hover: #f1f4f7;
+  --surface-active: #e8edf2;
+  --border: #dfe4ea;
+  --border-strong: #c3ccd6;
+  --text: #111827;
+  --text-muted: #4b5563;
+  --text-soft: #5f6b7a;
+  --accent: #0f766e;
+  --accent-soft: #d5f5f0;
+  --danger: #b42318;
+  --danger-soft: #fde8e6;
+  --warn: #93370d;
+  --warn-soft: #fef0c7;
+  --ok: #067647;
+  --ok-soft: #dcfae6;
+  --bar: #0f766e;
+  --bar-track: #e8edf2;
+  --shadow: 0 1px 2px rgb(16 24 40 / 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #0b0f14;
+    --surface: #131922;
+    --surface-hover: #1a2230;
+    --surface-active: #222c3b;
+    --border: #263041;
+    --border-strong: #38465c;
+    --text: #e6e9ef;
+    --text-muted: #b3bccb;
+    --text-soft: #97a2b3;
+    --accent: #2dd4bf;
+    --accent-soft: #133f3b;
+    --danger: #ff8a80;
+    --danger-soft: #3b1715;
+    --warn: #fdb022;
+    --warn-soft: #3a2a08;
+    --ok: #47cd89;
+    --ok-soft: #0c2e1d;
+    --bar: #2dd4bf;
+    --bar-track: #222c3b;
+    --shadow: none;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-surface-active: var(--surface-active);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-ink: var(--text);
+  --color-muted: var(--text-muted);
+  --color-soft: var(--text-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+dialog::backdrop {
+  background: rgb(10 14 20 / 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

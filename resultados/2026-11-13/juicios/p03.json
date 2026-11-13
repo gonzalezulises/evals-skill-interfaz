@@ -1,0 +1,20 @@
+{
+  "X": { "responsive": 5, "jerarquia": 4, "intencion": 3, "estados": 4, "accesibilidad": 4, "graficos": null, "formularios": 5, "calidad_visual": 4 },
+  "Y": { "responsive": 4, "jerarquia": 4, "intencion": 5, "estados": 5, "accesibilidad": 4, "graficos": null, "formularios": 4, "calidad_visual": 4 },
+  "preferencia": "Y",
+  "motivo": "Y responde mejor al uso diario: barra de envío fija en móvil con progreso «N de 4 secciones», índice lateral con estado por sección en escritorio, aviso de posible proveedor duplicado y un error de envío alcanzable con botón «Reintentar envío». X es más limpio y tiene un paso de revisión previo muy bien resuelto, pero es una pila de tarjetas iguales sin ayudas de orientación, y su rama de error de envío nunca se dispara.",
+  "defectos_X": [
+    "Todas las secciones son tarjetas idénticas apiladas, sin indicador de progreso ni índice; en escritorio a 1440 px la columna de 720 px deja vacíos los laterales",
+    "El error de envío ('No pudimos enviar la solicitud…') está maquetado, pero enviarSolicitud en lib/proveedor.ts nunca falla, así que ese estado es inalcanzable",
+    "Falta el tipo de cuenta (corriente/ahorros) en Datos bancarios, un dato que suele hacer falta para pagar",
+    "La ayuda del campo se mantiene debajo del error y aumenta el ruido visual cuando hay errores (Campo.tsx)"
+  ],
+  "defectos_Y": [
+    "En escritorio, «0 de 4 secciones completas» aparece dos veces (índice lateral y barra inferior) (captura de escritorio)",
+    "La ayuda del DV se parte en dos líneas, «Dígito / verificador.», en las capturas de tableta y escritorio; a 390 px la del RUC también se corta de forma rara",
+    "No hay paso de revisión antes de enviar: el resumen de datos aparece solo después de enviar, en Confirmacion",
+    "En móvil se oculta el botón «Cambiar» del archivo adjunto (hidden sm:inline-flex); para reemplazarlo hay que borrarlo y volver a elegirlo",
+    "Los campos no llevan marca de obligatorio; solo lo dice el texto de introducción",
+    "La barra fija tapa contenido en las capturas de página completa a 390 y 768 px; en uso real depende del padding pb-28"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "p06",
+  "cond": "B",
+  "compila": true,
+  "erroresTS": 0,
+  "verificadorOK": false,
+  "fallos": {
+    "scrollHorizontal": 0,
+    "erroresConsolaRed": 0,
+    "tactilChico": 1,
+    "sinNombre": 0,
+    "sinAlt": 0,
+    "textoChico": 0,
+    "porAncho": {
+      "390": {
+        "tactilChico": 1
+      }
+    }
+  },
+  "verificadorSalida": [
+    "FALLA (1)",
+    "- http://localhost:5911/ @390px: 1 controles < 44px: a «Ir al formulario de inscripció» 1×1"
+  ],
+  "lineasCodigo": 417,
+  "herramientas": {
+    "llamadas21st": 3,
+    "corrioVerificador": 0,
+    "porHerramienta": {
+      "Read": 9,
+      "Bash": 11,
+      "ToolSearch": 1,
+      "mcp__plugin_21st_21st__search": 3,
+      "Write": 2,
+      "SubagentHandback": 1
+    }
+  }
+}

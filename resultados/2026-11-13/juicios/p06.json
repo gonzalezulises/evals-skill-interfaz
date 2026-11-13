@@ -1,0 +1,22 @@
+{
+  "X": { "responsive": 4, "jerarquia": 4, "intencion": 4, "estados": 3, "accesibilidad": 4, "graficos": null, "formularios": 4, "calidad_visual": 4 },
+  "Y": { "responsive": 4, "jerarquia": 5, "intencion": 4, "estados": 4, "accesibilidad": 4, "graficos": null, "formularios": 5, "calidad_visual": 5 },
+  "preferencia": "Y",
+  "motivo": "Y tiene una portada más clara: título, CTA principal y secundario, y una tarjeta con fechas, sede y cupo con su barra. Además trae navegación por secciones, la insignia «Ahorras USD 100» y un formulario más completo: validación al salir del campo, marca de obligatorios, aviso de error de envío y estado de cupo completo. X es sólida y su formulario fijo en escritorio es un acierto, pero se ve más plana y no trata el fallo del envío.",
+  "defectos_X": [
+    "No hay estado de error al enviar: enviar() no tiene try/catch, así que un fallo dejaría el botón en «Enviando…» sin mensaje (App.tsx, Formulario)",
+    "En escritorio no hay ningún CTA en la cabecera (el botón «Inscribirme» lleva lg:hidden) ni navegación entre secciones; solo el formulario lateral fijo",
+    "La validación solo corre al enviar; no hay validación en línea al salir del campo",
+    "Los campos obligatorios no se marcan; solo los opcionales llevan «(opcional)»",
+    "Los tres beneficios de «De qué trata» son cajas iguales con poco contenido (captura de 768 y 1440)",
+    "A 768 px el formulario cae al final de una página larga, después de las preguntas frecuentes, y no hay navegación para llegar a él salvo el botón del hero"
+  ],
+  "defectos_Y": [
+    "En móvil y tableta la navegación por secciones se oculta sin menú alternativo (hidden lg:block); solo queda el botón «Inscribirme»",
+    "El formulario está al final de la página: en escritorio hay que bajar unos 2000 px para llegar (captura de 1440)",
+    "El estado de error existe, pero el envío simulado nunca falla: el bloque catch no se puede alcanzar",
+    "El texto de ayuda desaparece cuando aparece el error del campo (ayuda && !error)",
+    "A 768 px la ayuda «Opcional.» del teléfono queda separada bajo el campo y la fila de Empresa y Teléfono se ve desalineada",
+    "Hay mucho espacio vacío bajo el bloque de la facilitadora en móvil, antes de «Precio» (captura de 390)"
+  ]
+}

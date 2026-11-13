@@ -1,0 +1,52 @@
+{
+  "id": "p02",
+  "cond": "B",
+  "compila": true,
+  "erroresTS": 0,
+  "verificadorOK": false,
+  "fallos": {
+    "scrollHorizontal": 0,
+    "erroresConsolaRed": 0,
+    "tactilChico": 4,
+    "sinNombre": 0,
+    "sinAlt": 0,
+    "textoChico": 18,
+    "porAncho": {
+      "390": {
+        "tactilChico": 4,
+        "textoChico": 6
+      },
+      "768": {
+        "textoChico": 6
+      },
+      "1440": {
+        "textoChico": 6
+      }
+    }
+  },
+  "verificadorSalida": [
+    "FALLA (4)",
+    "- http://localhost:5903/ @390px: 4 controles < 44px: button «Saldo total» 88×36; button «Más de 90 días» 115×36; button «Uso del límite» 105×36; button «Ver los 60 clientes» 138×36",
+    "- http://localhost:5903/ @390px: 6 elementos con texto < 12px",
+    "- http://localhost:5903/ @768px: 6 elementos con texto < 12px",
+    "- http://localhost:5903/ @1440px: 6 elementos con texto < 12px"
+  ],
+  "lineasCodigo": 819,
+  "herramientas": {
+    "llamadas21st": 2,
+    "corrioVerificador": 0,
+    "porHerramienta": {
+      "Read": 9,
+      "Bash": 18,
+      "ToolSearch": 2,
+      "mcp__plugin_21st_21st__get_inspiration": 1,
+      "mcp__plugin_21st_21st__get_component": 1,
+      "Write": 6,
+      "mcp__playwright__browser_resize": 1,
+      "mcp__playwright__browser_navigate": 1,
+      "mcp__playwright__browser_take_screenshot": 1,
+      "Edit": 2,
+      "SubagentHandback": 1
+    }
+  }
+}

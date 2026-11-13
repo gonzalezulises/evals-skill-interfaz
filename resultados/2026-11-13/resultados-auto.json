@@ -1,0 +1,751 @@
+[
+  {
+    "id": "p01",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p01/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 922,
+    "herramientas": {
+      "llamadas21st": 4,
+      "corrioVerificador": 3,
+      "porHerramienta": {
+        "Read": 11,
+        "Bash": 15,
+        "ToolSearch": 2,
+        "Skill": 3,
+        "Skill:21st:21st-ui-build": 2,
+        "mcp__plugin_21st_21st__search": 2,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__get_component": 1,
+        "Skill:dataviz": 1,
+        "Write": 8,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p01",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": false,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 17,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {
+        "390": {
+          "tactilChico": 17
+        }
+      }
+    },
+    "verificadorSalida": [
+      "FALLA (1)",
+      "- http://localhost:5901/ @390px: 17 controles < 44px: button «Metales Colón: USD 505,271 com» 324×32; button «Papelería Central: USD 413,159» 324×32; button «Combustibles Azuero: USD 382,1» 324×32; button «Grupo Ultramar: USD 332,748 co» 324×32; button «Ferretería Istmo: USD 299,721 » 324×32"
+    ],
+    "lineasCodigo": 952,
+    "herramientas": {
+      "llamadas21st": 1,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 10,
+        "Bash": 13,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__search": 1,
+        "Write": 4,
+        "mcp__playwright__browser_resize": 1,
+        "mcp__playwright__browser_navigate": 1,
+        "mcp__playwright__browser_take_screenshot": 1,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p02",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p02/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 879,
+    "herramientas": {
+      "llamadas21st": 4,
+      "corrioVerificador": 4,
+      "porHerramienta": {
+        "Read": 9,
+        "Bash": 15,
+        "ToolSearch": 2,
+        "Skill": 3,
+        "Skill:21st:21st-ui-build": 2,
+        "mcp__plugin_21st_21st__search": 2,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__get_component": 1,
+        "Skill:dataviz": 1,
+        "Write": 9,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p02",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": false,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 4,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 18,
+      "porAncho": {
+        "390": {
+          "tactilChico": 4,
+          "textoChico": 6
+        },
+        "768": {
+          "textoChico": 6
+        },
+        "1440": {
+          "textoChico": 6
+        }
+      }
+    },
+    "verificadorSalida": [
+      "FALLA (4)",
+      "- http://localhost:5903/ @390px: 4 controles < 44px: button «Saldo total» 88×36; button «Más de 90 días» 115×36; button «Uso del límite» 105×36; button «Ver los 60 clientes» 138×36",
+      "- http://localhost:5903/ @390px: 6 elementos con texto < 12px",
+      "- http://localhost:5903/ @768px: 6 elementos con texto < 12px",
+      "- http://localhost:5903/ @1440px: 6 elementos con texto < 12px"
+    ],
+    "lineasCodigo": 819,
+    "herramientas": {
+      "llamadas21st": 2,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 9,
+        "Bash": 18,
+        "ToolSearch": 2,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__get_component": 1,
+        "Write": 6,
+        "mcp__playwright__browser_resize": 1,
+        "mcp__playwright__browser_navigate": 1,
+        "mcp__playwright__browser_take_screenshot": 1,
+        "Edit": 2,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p03",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p03/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 776,
+    "herramientas": {
+      "llamadas21st": 5,
+      "corrioVerificador": 6,
+      "porHerramienta": {
+        "Read": 8,
+        "Bash": 20,
+        "ToolSearch": 2,
+        "Skill": 2,
+        "Skill:21st:21st-ui-build": 2,
+        "mcp__plugin_21st_21st__search": 2,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__get_component": 2,
+        "Write": 1,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p03",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": false,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 2,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {
+        "390": {
+          "tactilChico": 2
+        }
+      }
+    },
+    "verificadorSalida": [
+      "FALLA (1)",
+      "- http://localhost:5905/ @390px: 2 controles < 44px: input «» 1×1; input «» 1×1"
+    ],
+    "lineasCodigo": 868,
+    "herramientas": {
+      "llamadas21st": 2,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 8,
+        "Bash": 17,
+        "ToolSearch": 2,
+        "mcp__plugin_21st_21st__search": 1,
+        "mcp__plugin_21st_21st__get_component": 1,
+        "Write": 9,
+        "mcp__playwright__browser_run_code_unsafe": 5,
+        "mcp__playwright__browser_close": 1,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p04",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p04/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 1088,
+    "herramientas": {
+      "llamadas21st": 4,
+      "corrioVerificador": 4,
+      "porHerramienta": {
+        "Read": 17,
+        "Bash": 18,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__search": 2,
+        "mcp__plugin_21st_21st__get_component": 1,
+        "Skill": 1,
+        "Skill:dataviz": 1,
+        "Write": 7,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p04",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": false,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 240,
+      "porAncho": {
+        "390": {
+          "textoChico": 240
+        }
+      }
+    },
+    "verificadorSalida": [
+      "FALLA (1)",
+      "- http://localhost:5907/ @390px: 240 elementos con texto < 12px"
+    ],
+    "lineasCodigo": 654,
+    "herramientas": {
+      "llamadas21st": 0,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 12,
+        "Bash": 16,
+        "Write": 3,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p05",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p05/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 758,
+    "herramientas": {
+      "llamadas21st": 5,
+      "corrioVerificador": 5,
+      "porHerramienta": {
+        "Read": 13,
+        "Bash": 18,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__search": 2,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__get_component": 2,
+        "Write": 15,
+        "Edit": 2,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p05",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p05/B/_eval/capturas/"
+    ],
+    "lineasCodigo": 608,
+    "herramientas": {
+      "llamadas21st": 2,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 13,
+        "Bash": 9,
+        "ToolSearch": 2,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__get_component": 1,
+        "Write": 9,
+        "mcp__playwright__browser_run_code_unsafe": 3,
+        "Edit": 4,
+        "mcp__playwright__browser_close": 1,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p06",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p06/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 556,
+    "herramientas": {
+      "llamadas21st": 6,
+      "corrioVerificador": 4,
+      "porHerramienta": {
+        "Read": 6,
+        "Bash": 10,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__search": 3,
+        "mcp__plugin_21st_21st__get_component": 2,
+        "Write": 4,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p06",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": false,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 1,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {
+        "390": {
+          "tactilChico": 1
+        }
+      }
+    },
+    "verificadorSalida": [
+      "FALLA (1)",
+      "- http://localhost:5911/ @390px: 1 controles < 44px: a «Ir al formulario de inscripció» 1×1"
+    ],
+    "lineasCodigo": 417,
+    "herramientas": {
+      "llamadas21st": 3,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 9,
+        "Bash": 11,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__search": 3,
+        "Write": 2,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p07",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p07/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 1077,
+    "herramientas": {
+      "llamadas21st": 5,
+      "corrioVerificador": 4,
+      "porHerramienta": {
+        "Read": 9,
+        "Bash": 17,
+        "ToolSearch": 2,
+        "Skill": 2,
+        "Skill:dataviz": 2,
+        "mcp__plugin_21st_21st__search": 2,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__get_component": 2,
+        "Write": 5,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p07",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p07/B/_eval/capturas/"
+    ],
+    "lineasCodigo": 696,
+    "herramientas": {
+      "llamadas21st": 1,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 8,
+        "Bash": 15,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "Write": 1,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p08",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p08/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 765,
+    "herramientas": {
+      "llamadas21st": 4,
+      "corrioVerificador": 3,
+      "porHerramienta": {
+        "Read": 13,
+        "Bash": 18,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__search": 1,
+        "mcp__plugin_21st_21st__get_component": 2,
+        "Write": 7,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p08",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p08/B/_eval/capturas/"
+    ],
+    "lineasCodigo": 588,
+    "herramientas": {
+      "llamadas21st": 0,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 15,
+        "Bash": 11,
+        "Write": 3,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p09",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p09/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 1038,
+    "herramientas": {
+      "llamadas21st": 4,
+      "corrioVerificador": 3,
+      "porHerramienta": {
+        "Read": 13,
+        "Bash": 12,
+        "Skill": 2,
+        "Skill:21st:21st-ui-build": 1,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__search": 3,
+        "mcp__plugin_21st_21st__get_component": 1,
+        "Skill:dataviz": 1,
+        "Write": 5,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p09",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": false,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 7,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 42,
+      "porAncho": {
+        "390": {
+          "tactilChico": 7
+        },
+        "1440": {
+          "textoChico": 42
+        }
+      }
+    },
+    "verificadorSalida": [
+      "FALLA (2)",
+      "- http://localhost:5917/ @390px: 7 controles < 44px: button «Todas» 65×36; button «Operaciones» 108×36; button «Bodega» 75×36; button «Flota» 58×36; button «Finanzas» 83×36",
+      "- http://localhost:5917/ @1440px: 42 elementos con texto < 12px"
+    ],
+    "lineasCodigo": 397,
+    "herramientas": {
+      "llamadas21st": 1,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 12,
+        "Bash": 13,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__search": 1,
+        "Write": 1,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p10",
+    "cond": "A",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": true,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 0,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 0,
+      "porAncho": {}
+    },
+    "verificadorSalida": [
+      "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p10/A/_eval/capturas/"
+    ],
+    "lineasCodigo": 777,
+    "herramientas": {
+      "llamadas21st": 5,
+      "corrioVerificador": 6,
+      "porHerramienta": {
+        "Read": 9,
+        "Bash": 13,
+        "ToolSearch": 2,
+        "Skill": 2,
+        "Skill:21st:21st-ui-build": 2,
+        "mcp__plugin_21st_21st__search": 1,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__get_component": 3,
+        "Write": 13,
+        "SubagentHandback": 1
+      }
+    }
+  },
+  {
+    "id": "p10",
+    "cond": "B",
+    "compila": true,
+    "erroresTS": 0,
+    "verificadorOK": false,
+    "fallos": {
+      "scrollHorizontal": 0,
+      "erroresConsolaRed": 0,
+      "tactilChico": 42,
+      "sinNombre": 0,
+      "sinAlt": 0,
+      "textoChico": 6,
+      "porAncho": {
+        "390": {
+          "tactilChico": 42,
+          "textoChico": 2
+        },
+        "768": {
+          "textoChico": 2
+        },
+        "1440": {
+          "textoChico": 2
+        }
+      }
+    },
+    "verificadorSalida": [
+      "FALLA (4)",
+      "- http://localhost:5919/ @390px: 42 controles < 44px: a «Saltar al contenido» 24×16; a «Perfil» 59×36; a «Notificaciones» 119×36; a «Equipo» 69×36; a «Cerrar cuenta» 115×36",
+      "- http://localhost:5919/ @390px: 2 elementos con texto < 12px",
+      "- http://localhost:5919/ @768px: 2 elementos con texto < 12px",
+      "- http://localhost:5919/ @1440px: 2 elementos con texto < 12px"
+    ],
+    "lineasCodigo": 943,
+    "herramientas": {
+      "llamadas21st": 3,
+      "corrioVerificador": 0,
+      "porHerramienta": {
+        "Read": 6,
+        "Bash": 10,
+        "ToolSearch": 1,
+        "mcp__plugin_21st_21st__get_inspiration": 1,
+        "mcp__plugin_21st_21st__search": 1,
+        "mcp__plugin_21st_21st__get_component": 1,
+        "Write": 13,
+        "SubagentHandback": 1
+      }
+    }
+  }
+]

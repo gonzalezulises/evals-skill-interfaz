@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Tokens (Andes Logística no tiene design system: base neutra estilo shadcn, ver PROCESO.md) */
+@theme {
+  --color-background: #f7f8fa;
+  --color-foreground: #111827;
+  --color-card: #ffffff;
+  --color-muted: #f1f3f6;
+  --color-muted-foreground: #4b5563;
+  --color-border: #e2e5ea;
+  --color-input: #cbd0d8;
+  --color-primary: #1d4ed8;
+  --color-primary-foreground: #ffffff;
+  --color-ring: #2563eb;
+  --color-destructive: #b91c1c;
+  --color-destructive-foreground: #ffffff;
+  --color-success: #15803d;
+  --color-warning: #92400e;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+section[id] {
+  scroll-margin-top: 7rem;
+}
+@media (min-width: 1024px) {
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+dialog::backdrop {
+  background: rgb(17 24 39 / 0.55);
+}

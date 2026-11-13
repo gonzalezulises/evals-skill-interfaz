@@ -1,0 +1,19 @@
+{
+  "X": { "responsive": 4, "jerarquia": 3, "intencion": 3, "estados": 2, "accesibilidad": 4, "graficos": null, "formularios": null, "calidad_visual": 4 },
+  "Y": { "responsive": 5, "jerarquia": 5, "intencion": 5, "estados": 5, "accesibilidad": 5, "graficos": 4, "formularios": null, "calidad_visual": 5 },
+  "preferencia": "Y",
+  "motivo": "Y ordena la pantalla según lo que el cliente necesita hacer: el saldo por pagar con su desglose vencido/pendiente, una alerta de lo vencido con acceso directo al filtro y la próxima factura por vencer, y además resalta en rojo las fechas vencidas del listado. También pagina el listado y trata carga (esqueleto), error (con Reintentar) y vacío. X es limpio y correcto, pero sus tres cajas de resumen tienen el mismo peso, vuelca las 48 facturas sin paginar y no tiene estados de carga ni de error.",
+  "defectos_X": [
+    "Tres tarjetas de resumen (Por pagar, Vencido, Pagado) del mismo tamaño y peso: el vencido no destaca más allá del color del monto y no lleva a ninguna acción (capturas a 768 y 1440)",
+    "Lista las 48 facturas sin paginar: la página en móvil mide unos 5200 px de alto (inicio-movil.png)",
+    "En el listado, la fecha de vencimiento de las facturas vencidas no se distingue del resto: solo la etiqueta indica el atraso",
+    "Sin estados de carga ni de error: App.tsx importa el JSON estático y src/lib/api.ts es un resto de otro encargo (fetchInventario) que no se usa",
+    "Las tarjetas móviles muestran el vencimiento en texto xs gris tenue, de baja legibilidad (inicio-movil.png)"
+  ],
+  "defectos_Y": [
+    "La tarjeta «Pendiente que vence primero» muestra el 9 may 2026, una fecha ya pasada, como si fuera próxima, sin marcarla como atrasada (las tres capturas)",
+    "A 390 px la fila de filtros se corta a la derecha («Pendientes 9» queda a medias). Es un scroll interno intencional, pero nada indica que haya más filtros (inicio-movil.png)",
+    "En escritorio, las tarjetas de Vencido y Pendiente tienen mucho espacio vacío entre el texto y el enlace porque se estiran a la altura de la tarjeta de saldo (inicio-escritorio.png)",
+    "Usa «$» en lugar de «B/.» para montos con ITBMS panameño, lo que podría confundir con otras monedas"
+  ]
+}

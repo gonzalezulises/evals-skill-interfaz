@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Andes Logística no tiene design system: tokens neutros propios.
+   Estados con la paleta de estado validada del skill dataviz (good/warning/critical),
+   siempre acompañados de icono y texto. */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --color-bg: #f5f5f3;
+  --color-surface: #fcfcfb;
+  --color-surface-2: #f0efec;
+  --color-line: #e2e1dc;
+  --color-ink: #0b0b0b;
+  --color-ink-2: #52514e;
+  --color-ink-3: #6b6a66;
+  --color-accent: #2a78d6;
+  --color-accent-ink: #1c5cab;
+  --color-accent-soft: #cde2fb;
+  --color-ok: #0ca30c;
+  --color-ok-ink: #006300;
+  --color-warn: #fab219;
+  --color-warn-ink: #8a5a00;
+  --color-crit: #d03b3b;
+  --color-crit-ink: #b02a2a;
+  --color-crit-soft: #fbe3e3;
+  --color-warn-soft: #fdf1d6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #121211;
+    --color-surface: #1a1a19;
+    --color-surface-2: #262624;
+    --color-line: #383835;
+    --color-ink: #f0efec;
+    --color-ink-2: #c3c2b7;
+    --color-ink-3: #a3a29a;
+    --color-accent: #3987e5;
+    --color-accent-ink: #86b6ef;
+    --color-accent-soft: #184f95;
+    --color-ok-ink: #5fd35f;
+    --color-warn-ink: #fab219;
+    --color-crit-ink: #f08a8a;
+    --color-crit-soft: #3a1d1d;
+    --color-warn-soft: #3a2f14;
+    color-scheme: dark;
+  }
+}
+
+html,
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes subir {
+  from { transform: translateY(24px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}

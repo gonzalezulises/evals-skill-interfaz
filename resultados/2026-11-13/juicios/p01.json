@@ -1,0 +1,22 @@
+{
+  "X": { "responsive": 4, "jerarquia": 4, "intencion": 4, "estados": 2, "accesibilidad": 4, "graficos": 4, "formularios": null, "calidad_visual": 4 },
+  "Y": { "responsive": 4, "jerarquia": 4, "intencion": 5, "estados": 5, "accesibilidad": 5, "graficos": 3, "formularios": null, "calidad_visual": 4 },
+  "preferencia": "Y",
+  "motivo": "Y le da un peso claro al dinero comprometido, con su reparto atrasado contra en plazo, y destaca las atrasadas en una tarjeta de alerta que lleva directo a la tabla. Además trata la carga y el error con reintento, y en móvil usa áreas táctiles de 44 px. X ofrece un mejor desglose por proveedor y abre por defecto en la vista de atrasadas, pero no tiene estado de carga ni de error, y sus cuatro KPI son cajas iguales.",
+  "defectos_X": [
+    "Sin estado de carga ni de error: los datos se importan de forma estática en App.tsx; solo existe el estado vacío «No hay órdenes con estos filtros»",
+    "Los cuatro KPI son tarjetas idénticas en grilla, sin que el tamaño marque la cifra principal (escritorio y tableta)",
+    "A 390 px las etiquetas de los KPI se parten de forma irregular («Comprometido / atrasado», «Entregas completas a / tiempo») y las tarjetas quedan desalineadas",
+    "A 390 px las pestañas «Atrasadas (139) / Comprometidas (151) / Todas (300)» se parten en dos líneas",
+    "Áreas táctiles justas en móvil: pestañas con py-1.5, botones de paginación de 36 px (size-9) y botón «Quitar filtro» con p-0.5",
+    "En el gráfico por proveedor, las etiquetas se truncan a 390 px («Cementos del Pacífi…»)"
+  ],
+  "defectos_Y": [
+    "El monto comprometido se muestra con centavos (USD 3,636,858.17), que solo agregan ruido en la cifra principal",
+    "En «Atrasadas por antigüedad» todos los tramos usan el mismo verde azulado: no se distingue por color la gravedad de más de 90 días, y el verde contradice el rojo del atraso",
+    "La minigráfica mensual de la tarjeta principal no muestra valores ni eje; solo se lee la forma",
+    "A 390 px los chips de estado se desbordan con scroll horizontal y ocultan la mayoría de los filtros sin indicarlo",
+    "En las tarjetas de móvil se trunca la fecha de entrega («entrega 31 m…»)",
+    "No hay vista por proveedor, la dimensión que más usa un gerente de compras"
+  ]
+}

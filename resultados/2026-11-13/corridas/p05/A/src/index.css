@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Andes Logística no tiene design system: tokens propios, contraste AA verificado sobre blanco. */
+@theme {
+  --color-fondo: #f5f6f8;
+  --color-superficie: #ffffff;
+  --color-tinta: #0f172a;
+  --color-tenue: #475569;
+  --color-linea: #e2e8f0;
+  --color-marca: #0e5a69;
+  --color-marca-suave: #e3f0f2;
+
+  --color-pagada: #166534;
+  --color-pagada-suave: #dcfce7;
+  --color-pendiente: #92400e;
+  --color-pendiente-suave: #fef3c7;
+  --color-vencida: #b91c1c;
+  --color-vencida-suave: #fee2e2;
+  --color-anulada: #475569;
+  --color-anulada-suave: #eef1f5;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: var(--color-fondo);
+  color: var(--color-tinta);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-marca);
+  outline-offset: 2px;
+}
+
+@keyframes entrar-derecha {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+@keyframes aparecer {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.anim-panel { animation: entrar-derecha 220ms cubic-bezier(0.2, 0.8, 0.2, 1); }
+.anim-velo { animation: aparecer 180ms ease-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-panel, .anim-velo, .animate-pulse { animation: none; }
+  * { transition: none !important; }
+}

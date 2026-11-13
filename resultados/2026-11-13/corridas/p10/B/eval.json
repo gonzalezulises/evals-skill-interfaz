@@ -1,0 +1,49 @@
+{
+  "id": "p10",
+  "cond": "B",
+  "compila": true,
+  "erroresTS": 0,
+  "verificadorOK": false,
+  "fallos": {
+    "scrollHorizontal": 0,
+    "erroresConsolaRed": 0,
+    "tactilChico": 42,
+    "sinNombre": 0,
+    "sinAlt": 0,
+    "textoChico": 6,
+    "porAncho": {
+      "390": {
+        "tactilChico": 42,
+        "textoChico": 2
+      },
+      "768": {
+        "textoChico": 2
+      },
+      "1440": {
+        "textoChico": 2
+      }
+    }
+  },
+  "verificadorSalida": [
+    "FALLA (4)",
+    "- http://localhost:5919/ @390px: 42 controles < 44px: a «Saltar al contenido» 24×16; a «Perfil» 59×36; a «Notificaciones» 119×36; a «Equipo» 69×36; a «Cerrar cuenta» 115×36",
+    "- http://localhost:5919/ @390px: 2 elementos con texto < 12px",
+    "- http://localhost:5919/ @768px: 2 elementos con texto < 12px",
+    "- http://localhost:5919/ @1440px: 2 elementos con texto < 12px"
+  ],
+  "lineasCodigo": 943,
+  "herramientas": {
+    "llamadas21st": 3,
+    "corrioVerificador": 0,
+    "porHerramienta": {
+      "Read": 6,
+      "Bash": 10,
+      "ToolSearch": 1,
+      "mcp__plugin_21st_21st__get_inspiration": 1,
+      "mcp__plugin_21st_21st__search": 1,
+      "mcp__plugin_21st_21st__get_component": 1,
+      "Write": 13,
+      "SubagentHandback": 1
+    }
+  }
+}

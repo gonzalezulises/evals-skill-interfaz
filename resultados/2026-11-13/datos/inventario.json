@@ -1,0 +1,1202 @@
+[
+  {
+    "sku": "SKU-20000",
+    "descripcion": "Caja reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 218,
+    "minimo": 81,
+    "unidad": "rollo",
+    "costoUnitario": 166.2,
+    "ultimoMovimiento": "2026-08-19"
+  },
+  {
+    "sku": "SKU-20007",
+    "descripcion": "Montacargas batería XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 942,
+    "minimo": 56,
+    "unidad": "und",
+    "costoUnitario": 81.03,
+    "ultimoMovimiento": "2026-10-20"
+  },
+  {
+    "sku": "SKU-20014",
+    "descripcion": "Pallet XL",
+    "bodega": "David",
+    "existencia": 10,
+    "minimo": 64,
+    "unidad": "rollo",
+    "costoUnitario": 292.32,
+    "ultimoMovimiento": "2026-10-21"
+  },
+  {
+    "sku": "SKU-20021",
+    "descripcion": "Film stretch estándar",
+    "bodega": "David",
+    "existencia": 1950,
+    "minimo": 89,
+    "unidad": "und",
+    "costoUnitario": 179.77,
+    "ultimoMovimiento": "2026-10-07"
+  },
+  {
+    "sku": "SKU-20028",
+    "descripcion": "Esquinero industrial",
+    "bodega": "Colón",
+    "existencia": 746,
+    "minimo": 140,
+    "unidad": "rollo",
+    "costoUnitario": 391.86,
+    "ultimoMovimiento": "2026-10-03"
+  },
+  {
+    "sku": "SKU-20035",
+    "descripcion": "Etiqueta térmica reforzado",
+    "bodega": "Colón",
+    "existencia": 8,
+    "minimo": 63,
+    "unidad": "rollo",
+    "costoUnitario": 418,
+    "ultimoMovimiento": "2026-09-12"
+  },
+  {
+    "sku": "SKU-20042",
+    "descripcion": "Esquinero estándar",
+    "bodega": "Tocumen",
+    "existencia": 28,
+    "minimo": 192,
+    "unidad": "caja",
+    "costoUnitario": 120.7,
+    "ultimoMovimiento": "2026-10-30"
+  },
+  {
+    "sku": "SKU-20049",
+    "descripcion": "Montacargas batería XL",
+    "bodega": "David",
+    "existencia": 850,
+    "minimo": 49,
+    "unidad": "und",
+    "costoUnitario": 166.15,
+    "ultimoMovimiento": "2026-09-29"
+  },
+  {
+    "sku": "SKU-20056",
+    "descripcion": "Montacargas batería industrial",
+    "bodega": "David",
+    "existencia": 3,
+    "minimo": 125,
+    "unidad": "caja",
+    "costoUnitario": 12.34,
+    "ultimoMovimiento": "2026-08-31"
+  },
+  {
+    "sku": "SKU-20063",
+    "descripcion": "Contenedor plástico industrial",
+    "bodega": "Tocumen",
+    "existencia": 802,
+    "minimo": 112,
+    "unidad": "caja",
+    "costoUnitario": 657.14,
+    "ultimoMovimiento": "2026-08-24"
+  },
+  {
+    "sku": "SKU-20070",
+    "descripcion": "Montacargas batería estándar",
+    "bodega": "Tocumen",
+    "existencia": 2344,
+    "minimo": 176,
+    "unidad": "und",
+    "costoUnitario": 198.43,
+    "ultimoMovimiento": "2026-09-05"
+  },
+  {
+    "sku": "SKU-20077",
+    "descripcion": "Montacargas batería reforzado",
+    "bodega": "Colón",
+    "existencia": 8,
+    "minimo": 120,
+    "unidad": "und",
+    "costoUnitario": 830.61,
+    "ultimoMovimiento": "2026-08-19"
+  },
+  {
+    "sku": "SKU-20084",
+    "descripcion": "Fleje reforzado",
+    "bodega": "Colón",
+    "existencia": 4,
+    "minimo": 73,
+    "unidad": "und",
+    "costoUnitario": 288.26,
+    "ultimoMovimiento": "2026-08-07"
+  },
+  {
+    "sku": "SKU-20091",
+    "descripcion": "Film stretch industrial",
+    "bodega": "Colón",
+    "existencia": 893,
+    "minimo": 200,
+    "unidad": "caja",
+    "costoUnitario": 467.21,
+    "ultimoMovimiento": "2026-08-23"
+  },
+  {
+    "sku": "SKU-20098",
+    "descripcion": "Film stretch XL",
+    "bodega": "Colón",
+    "existencia": 403,
+    "minimo": 188,
+    "unidad": "caja",
+    "costoUnitario": 870.23,
+    "ultimoMovimiento": "2026-09-30"
+  },
+  {
+    "sku": "SKU-20105",
+    "descripcion": "Esquinero estándar",
+    "bodega": "Colón",
+    "existencia": 1788,
+    "minimo": 88,
+    "unidad": "und",
+    "costoUnitario": 289.15,
+    "ultimoMovimiento": "2026-11-09"
+  },
+  {
+    "sku": "SKU-20112",
+    "descripcion": "Montacargas batería estándar",
+    "bodega": "Panamá Pacífico",
+    "existencia": 2,
+    "minimo": 66,
+    "unidad": "caja",
+    "costoUnitario": 116.91,
+    "ultimoMovimiento": "2026-09-27"
+  },
+  {
+    "sku": "SKU-20119",
+    "descripcion": "Contenedor plástico estándar",
+    "bodega": "David",
+    "existencia": 15,
+    "minimo": 35,
+    "unidad": "rollo",
+    "costoUnitario": 525.46,
+    "ultimoMovimiento": "2026-10-06"
+  },
+  {
+    "sku": "SKU-20126",
+    "descripcion": "Caja industrial",
+    "bodega": "Panamá Pacífico",
+    "existencia": 2,
+    "minimo": 143,
+    "unidad": "caja",
+    "costoUnitario": 787.82,
+    "ultimoMovimiento": "2026-10-31"
+  },
+  {
+    "sku": "SKU-20133",
+    "descripcion": "Esquinero XL",
+    "bodega": "Tocumen",
+    "existencia": 713,
+    "minimo": 157,
+    "unidad": "rollo",
+    "costoUnitario": 783.61,
+    "ultimoMovimiento": "2026-09-01"
+  },
+  {
+    "sku": "SKU-20140",
+    "descripcion": "Caja reforzado",
+    "bodega": "Colón",
+    "existencia": 419,
+    "minimo": 195,
+    "unidad": "und",
+    "costoUnitario": 703.55,
+    "ultimoMovimiento": "2026-08-29"
+  },
+  {
+    "sku": "SKU-20147",
+    "descripcion": "Film stretch reforzado",
+    "bodega": "Tocumen",
+    "existencia": 2114,
+    "minimo": 44,
+    "unidad": "caja",
+    "costoUnitario": 837.1,
+    "ultimoMovimiento": "2026-11-09"
+  },
+  {
+    "sku": "SKU-20154",
+    "descripcion": "Fleje industrial",
+    "bodega": "Panamá Pacífico",
+    "existencia": 620,
+    "minimo": 26,
+    "unidad": "rollo",
+    "costoUnitario": 218.2,
+    "ultimoMovimiento": "2026-09-03"
+  },
+  {
+    "sku": "SKU-20161",
+    "descripcion": "Contenedor plástico estándar",
+    "bodega": "David",
+    "existencia": 577,
+    "minimo": 156,
+    "unidad": "caja",
+    "costoUnitario": 484.71,
+    "ultimoMovimiento": "2026-09-25"
+  },
+  {
+    "sku": "SKU-20168",
+    "descripcion": "Caja XL",
+    "bodega": "David",
+    "existencia": 12,
+    "minimo": 167,
+    "unidad": "caja",
+    "costoUnitario": 74.51,
+    "ultimoMovimiento": "2026-08-14"
+  },
+  {
+    "sku": "SKU-20175",
+    "descripcion": "Fleje estándar",
+    "bodega": "Tocumen",
+    "existencia": 980,
+    "minimo": 156,
+    "unidad": "caja",
+    "costoUnitario": 166.03,
+    "ultimoMovimiento": "2026-08-15"
+  },
+  {
+    "sku": "SKU-20182",
+    "descripcion": "Film stretch estándar",
+    "bodega": "Colón",
+    "existencia": 8,
+    "minimo": 53,
+    "unidad": "caja",
+    "costoUnitario": 273.07,
+    "ultimoMovimiento": "2026-09-08"
+  },
+  {
+    "sku": "SKU-20189",
+    "descripcion": "Etiqueta térmica reforzado",
+    "bodega": "Colón",
+    "existencia": 9,
+    "minimo": 76,
+    "unidad": "rollo",
+    "costoUnitario": 891.37,
+    "ultimoMovimiento": "2026-09-21"
+  },
+  {
+    "sku": "SKU-20196",
+    "descripcion": "Pallet industrial",
+    "bodega": "Tocumen",
+    "existencia": 2191,
+    "minimo": 57,
+    "unidad": "caja",
+    "costoUnitario": 217.13,
+    "ultimoMovimiento": "2026-08-16"
+  },
+  {
+    "sku": "SKU-20203",
+    "descripcion": "Fleje industrial",
+    "bodega": "Panamá Pacífico",
+    "existencia": 12,
+    "minimo": 198,
+    "unidad": "rollo",
+    "costoUnitario": 864.12,
+    "ultimoMovimiento": "2026-09-15"
+  },
+  {
+    "sku": "SKU-20210",
+    "descripcion": "Fleje industrial",
+    "bodega": "Tocumen",
+    "existencia": 152,
+    "minimo": 163,
+    "unidad": "rollo",
+    "costoUnitario": 266.07,
+    "ultimoMovimiento": "2026-11-04"
+  },
+  {
+    "sku": "SKU-20217",
+    "descripcion": "Pallet reforzado",
+    "bodega": "Colón",
+    "existencia": 324,
+    "minimo": 66,
+    "unidad": "caja",
+    "costoUnitario": 491.02,
+    "ultimoMovimiento": "2026-10-04"
+  },
+  {
+    "sku": "SKU-20224",
+    "descripcion": "Etiqueta térmica estándar",
+    "bodega": "Panamá Pacífico",
+    "existencia": 1124,
+    "minimo": 97,
+    "unidad": "caja",
+    "costoUnitario": 378.72,
+    "ultimoMovimiento": "2026-10-03"
+  },
+  {
+    "sku": "SKU-20231",
+    "descripcion": "Caja estándar",
+    "bodega": "Colón",
+    "existencia": 1506,
+    "minimo": 172,
+    "unidad": "und",
+    "costoUnitario": 221.42,
+    "ultimoMovimiento": "2026-08-21"
+  },
+  {
+    "sku": "SKU-20238",
+    "descripcion": "Pallet XL",
+    "bodega": "David",
+    "existencia": 761,
+    "minimo": 42,
+    "unidad": "und",
+    "costoUnitario": 127.66,
+    "ultimoMovimiento": "2026-08-02"
+  },
+  {
+    "sku": "SKU-20245",
+    "descripcion": "Esquinero industrial",
+    "bodega": "Panamá Pacífico",
+    "existencia": 2032,
+    "minimo": 84,
+    "unidad": "rollo",
+    "costoUnitario": 445.82,
+    "ultimoMovimiento": "2026-09-21"
+  },
+  {
+    "sku": "SKU-20252",
+    "descripcion": "Pallet reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 1,
+    "minimo": 193,
+    "unidad": "rollo",
+    "costoUnitario": 659.14,
+    "ultimoMovimiento": "2026-09-16"
+  },
+  {
+    "sku": "SKU-20259",
+    "descripcion": "Etiqueta térmica estándar",
+    "bodega": "Colón",
+    "existencia": 12,
+    "minimo": 141,
+    "unidad": "und",
+    "costoUnitario": 62.22,
+    "ultimoMovimiento": "2026-09-17"
+  },
+  {
+    "sku": "SKU-20266",
+    "descripcion": "Caja estándar",
+    "bodega": "Tocumen",
+    "existencia": 1838,
+    "minimo": 189,
+    "unidad": "rollo",
+    "costoUnitario": 638.62,
+    "ultimoMovimiento": "2026-08-20"
+  },
+  {
+    "sku": "SKU-20273",
+    "descripcion": "Fleje reforzado",
+    "bodega": "Tocumen",
+    "existencia": 453,
+    "minimo": 156,
+    "unidad": "und",
+    "costoUnitario": 616.08,
+    "ultimoMovimiento": "2026-08-24"
+  },
+  {
+    "sku": "SKU-20280",
+    "descripcion": "Contenedor plástico estándar",
+    "bodega": "David",
+    "existencia": 2194,
+    "minimo": 41,
+    "unidad": "rollo",
+    "costoUnitario": 673.88,
+    "ultimoMovimiento": "2026-10-27"
+  },
+  {
+    "sku": "SKU-20287",
+    "descripcion": "Contenedor plástico XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 0,
+    "minimo": 97,
+    "unidad": "caja",
+    "costoUnitario": 866.05,
+    "ultimoMovimiento": "2026-10-08"
+  },
+  {
+    "sku": "SKU-20294",
+    "descripcion": "Caja reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 2125,
+    "minimo": 56,
+    "unidad": "rollo",
+    "costoUnitario": 765.4,
+    "ultimoMovimiento": "2026-11-05"
+  },
+  {
+    "sku": "SKU-20301",
+    "descripcion": "Film stretch reforzado",
+    "bodega": "Tocumen",
+    "existencia": 13,
+    "minimo": 66,
+    "unidad": "rollo",
+    "costoUnitario": 441.08,
+    "ultimoMovimiento": "2026-09-19"
+  },
+  {
+    "sku": "SKU-20308",
+    "descripcion": "Montacargas batería reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 2310,
+    "minimo": 93,
+    "unidad": "caja",
+    "costoUnitario": 779.95,
+    "ultimoMovimiento": "2026-09-18"
+  },
+  {
+    "sku": "SKU-20315",
+    "descripcion": "Caja XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 2168,
+    "minimo": 175,
+    "unidad": "rollo",
+    "costoUnitario": 893.69,
+    "ultimoMovimiento": "2026-08-13"
+  },
+  {
+    "sku": "SKU-20322",
+    "descripcion": "Esquinero reforzado",
+    "bodega": "David",
+    "existencia": 12,
+    "minimo": 198,
+    "unidad": "und",
+    "costoUnitario": 601.15,
+    "ultimoMovimiento": "2026-09-06"
+  },
+  {
+    "sku": "SKU-20329",
+    "descripcion": "Caja reforzado",
+    "bodega": "David",
+    "existencia": 0,
+    "minimo": 58,
+    "unidad": "rollo",
+    "costoUnitario": 530.54,
+    "ultimoMovimiento": "2026-09-13"
+  },
+  {
+    "sku": "SKU-20336",
+    "descripcion": "Contenedor plástico reforzado",
+    "bodega": "Tocumen",
+    "existencia": 2356,
+    "minimo": 155,
+    "unidad": "rollo",
+    "costoUnitario": 87.14,
+    "ultimoMovimiento": "2026-10-06"
+  },
+  {
+    "sku": "SKU-20343",
+    "descripcion": "Montacargas batería XL",
+    "bodega": "Tocumen",
+    "existencia": 10,
+    "minimo": 35,
+    "unidad": "caja",
+    "costoUnitario": 331.97,
+    "ultimoMovimiento": "2026-09-14"
+  },
+  {
+    "sku": "SKU-20350",
+    "descripcion": "Esquinero reforzado",
+    "bodega": "Tocumen",
+    "existencia": 1286,
+    "minimo": 32,
+    "unidad": "rollo",
+    "costoUnitario": 649.64,
+    "ultimoMovimiento": "2026-09-10"
+  },
+  {
+    "sku": "SKU-20357",
+    "descripcion": "Caja estándar",
+    "bodega": "Panamá Pacífico",
+    "existencia": 9,
+    "minimo": 38,
+    "unidad": "rollo",
+    "costoUnitario": 145.5,
+    "ultimoMovimiento": "2026-09-25"
+  },
+  {
+    "sku": "SKU-20364",
+    "descripcion": "Contenedor plástico XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 9,
+    "minimo": 133,
+    "unidad": "rollo",
+    "costoUnitario": 96.26,
+    "ultimoMovimiento": "2026-09-20"
+  },
+  {
+    "sku": "SKU-20371",
+    "descripcion": "Caja reforzado",
+    "bodega": "Tocumen",
+    "existencia": 1,
+    "minimo": 38,
+    "unidad": "und",
+    "costoUnitario": 801.05,
+    "ultimoMovimiento": "2026-09-26"
+  },
+  {
+    "sku": "SKU-20378",
+    "descripcion": "Fleje XL",
+    "bodega": "Colón",
+    "existencia": 2,
+    "minimo": 44,
+    "unidad": "caja",
+    "costoUnitario": 108.42,
+    "ultimoMovimiento": "2026-09-13"
+  },
+  {
+    "sku": "SKU-20385",
+    "descripcion": "Etiqueta térmica industrial",
+    "bodega": "Tocumen",
+    "existencia": 1921,
+    "minimo": 192,
+    "unidad": "caja",
+    "costoUnitario": 365.9,
+    "ultimoMovimiento": "2026-09-05"
+  },
+  {
+    "sku": "SKU-20392",
+    "descripcion": "Fleje reforzado",
+    "bodega": "Tocumen",
+    "existencia": 6,
+    "minimo": 166,
+    "unidad": "rollo",
+    "costoUnitario": 540.5,
+    "ultimoMovimiento": "2026-10-10"
+  },
+  {
+    "sku": "SKU-20399",
+    "descripcion": "Caja XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 5,
+    "minimo": 66,
+    "unidad": "und",
+    "costoUnitario": 687.76,
+    "ultimoMovimiento": "2026-10-30"
+  },
+  {
+    "sku": "SKU-20406",
+    "descripcion": "Film stretch XL",
+    "bodega": "Tocumen",
+    "existencia": 15,
+    "minimo": 131,
+    "unidad": "caja",
+    "costoUnitario": 631.36,
+    "ultimoMovimiento": "2026-08-25"
+  },
+  {
+    "sku": "SKU-20413",
+    "descripcion": "Montacargas batería industrial",
+    "bodega": "Colón",
+    "existencia": 5,
+    "minimo": 65,
+    "unidad": "caja",
+    "costoUnitario": 476.87,
+    "ultimoMovimiento": "2026-09-14"
+  },
+  {
+    "sku": "SKU-20420",
+    "descripcion": "Contenedor plástico estándar",
+    "bodega": "David",
+    "existencia": 15,
+    "minimo": 25,
+    "unidad": "und",
+    "costoUnitario": 319.58,
+    "ultimoMovimiento": "2026-09-22"
+  },
+  {
+    "sku": "SKU-20427",
+    "descripcion": "Caja reforzado",
+    "bodega": "David",
+    "existencia": 6,
+    "minimo": 142,
+    "unidad": "caja",
+    "costoUnitario": 487.93,
+    "ultimoMovimiento": "2026-10-02"
+  },
+  {
+    "sku": "SKU-20434",
+    "descripcion": "Contenedor plástico reforzado",
+    "bodega": "Colón",
+    "existencia": 1035,
+    "minimo": 107,
+    "unidad": "und",
+    "costoUnitario": 684.93,
+    "ultimoMovimiento": "2026-10-16"
+  },
+  {
+    "sku": "SKU-20441",
+    "descripcion": "Etiqueta térmica estándar",
+    "bodega": "Colón",
+    "existencia": 5,
+    "minimo": 199,
+    "unidad": "caja",
+    "costoUnitario": 519.49,
+    "ultimoMovimiento": "2026-08-28"
+  },
+  {
+    "sku": "SKU-20448",
+    "descripcion": "Caja estándar",
+    "bodega": "Colón",
+    "existencia": 13,
+    "minimo": 23,
+    "unidad": "rollo",
+    "costoUnitario": 448.32,
+    "ultimoMovimiento": "2026-09-11"
+  },
+  {
+    "sku": "SKU-20455",
+    "descripcion": "Esquinero reforzado",
+    "bodega": "David",
+    "existencia": 9,
+    "minimo": 47,
+    "unidad": "rollo",
+    "costoUnitario": 179.67,
+    "ultimoMovimiento": "2026-08-31"
+  },
+  {
+    "sku": "SKU-20462",
+    "descripcion": "Etiqueta térmica XL",
+    "bodega": "David",
+    "existencia": 368,
+    "minimo": 131,
+    "unidad": "und",
+    "costoUnitario": 22.25,
+    "ultimoMovimiento": "2026-09-07"
+  },
+  {
+    "sku": "SKU-20469",
+    "descripcion": "Pallet XL",
+    "bodega": "Tocumen",
+    "existencia": 0,
+    "minimo": 190,
+    "unidad": "und",
+    "costoUnitario": 686.94,
+    "ultimoMovimiento": "2026-10-11"
+  },
+  {
+    "sku": "SKU-20476",
+    "descripcion": "Fleje industrial",
+    "bodega": "Tocumen",
+    "existencia": 14,
+    "minimo": 128,
+    "unidad": "caja",
+    "costoUnitario": 768.62,
+    "ultimoMovimiento": "2026-11-01"
+  },
+  {
+    "sku": "SKU-20483",
+    "descripcion": "Montacargas batería reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 405,
+    "minimo": 30,
+    "unidad": "rollo",
+    "costoUnitario": 561.38,
+    "ultimoMovimiento": "2026-09-04"
+  },
+  {
+    "sku": "SKU-20490",
+    "descripcion": "Fleje reforzado",
+    "bodega": "Tocumen",
+    "existencia": 3,
+    "minimo": 118,
+    "unidad": "caja",
+    "costoUnitario": 738.94,
+    "ultimoMovimiento": "2026-09-12"
+  },
+  {
+    "sku": "SKU-20497",
+    "descripcion": "Pallet XL",
+    "bodega": "Colón",
+    "existencia": 4,
+    "minimo": 95,
+    "unidad": "rollo",
+    "costoUnitario": 166.21,
+    "ultimoMovimiento": "2026-08-18"
+  },
+  {
+    "sku": "SKU-20504",
+    "descripcion": "Montacargas batería estándar",
+    "bodega": "David",
+    "existencia": 1303,
+    "minimo": 157,
+    "unidad": "caja",
+    "costoUnitario": 390.77,
+    "ultimoMovimiento": "2026-08-04"
+  },
+  {
+    "sku": "SKU-20511",
+    "descripcion": "Montacargas batería reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 1153,
+    "minimo": 60,
+    "unidad": "und",
+    "costoUnitario": 22.45,
+    "ultimoMovimiento": "2026-10-31"
+  },
+  {
+    "sku": "SKU-20518",
+    "descripcion": "Caja reforzado",
+    "bodega": "Colón",
+    "existencia": 1,
+    "minimo": 135,
+    "unidad": "caja",
+    "costoUnitario": 595.38,
+    "ultimoMovimiento": "2026-09-14"
+  },
+  {
+    "sku": "SKU-20525",
+    "descripcion": "Etiqueta térmica XL",
+    "bodega": "Tocumen",
+    "existencia": 240,
+    "minimo": 195,
+    "unidad": "und",
+    "costoUnitario": 49.94,
+    "ultimoMovimiento": "2026-08-06"
+  },
+  {
+    "sku": "SKU-20532",
+    "descripcion": "Etiqueta térmica reforzado",
+    "bodega": "Tocumen",
+    "existencia": 1712,
+    "minimo": 200,
+    "unidad": "und",
+    "costoUnitario": 360,
+    "ultimoMovimiento": "2026-08-23"
+  },
+  {
+    "sku": "SKU-20539",
+    "descripcion": "Film stretch industrial",
+    "bodega": "Panamá Pacífico",
+    "existencia": 1529,
+    "minimo": 182,
+    "unidad": "caja",
+    "costoUnitario": 29.59,
+    "ultimoMovimiento": "2026-08-29"
+  },
+  {
+    "sku": "SKU-20546",
+    "descripcion": "Pallet XL",
+    "bodega": "Tocumen",
+    "existencia": 3,
+    "minimo": 37,
+    "unidad": "caja",
+    "costoUnitario": 603.36,
+    "ultimoMovimiento": "2026-08-01"
+  },
+  {
+    "sku": "SKU-20553",
+    "descripcion": "Contenedor plástico XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 15,
+    "minimo": 178,
+    "unidad": "rollo",
+    "costoUnitario": 774.39,
+    "ultimoMovimiento": "2026-09-21"
+  },
+  {
+    "sku": "SKU-20560",
+    "descripcion": "Esquinero estándar",
+    "bodega": "Panamá Pacífico",
+    "existencia": 11,
+    "minimo": 71,
+    "unidad": "rollo",
+    "costoUnitario": 72.42,
+    "ultimoMovimiento": "2026-09-30"
+  },
+  {
+    "sku": "SKU-20567",
+    "descripcion": "Etiqueta térmica estándar",
+    "bodega": "Tocumen",
+    "existencia": 1984,
+    "minimo": 53,
+    "unidad": "rollo",
+    "costoUnitario": 451.42,
+    "ultimoMovimiento": "2026-11-01"
+  },
+  {
+    "sku": "SKU-20574",
+    "descripcion": "Esquinero estándar",
+    "bodega": "Tocumen",
+    "existencia": 1403,
+    "minimo": 73,
+    "unidad": "rollo",
+    "costoUnitario": 521.79,
+    "ultimoMovimiento": "2026-08-31"
+  },
+  {
+    "sku": "SKU-20581",
+    "descripcion": "Esquinero industrial",
+    "bodega": "Panamá Pacífico",
+    "existencia": 1313,
+    "minimo": 93,
+    "unidad": "und",
+    "costoUnitario": 57.06,
+    "ultimoMovimiento": "2026-08-05"
+  },
+  {
+    "sku": "SKU-20588",
+    "descripcion": "Film stretch reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 436,
+    "minimo": 96,
+    "unidad": "und",
+    "costoUnitario": 779.69,
+    "ultimoMovimiento": "2026-11-08"
+  },
+  {
+    "sku": "SKU-20595",
+    "descripcion": "Fleje estándar",
+    "bodega": "Panamá Pacífico",
+    "existencia": 1,
+    "minimo": 129,
+    "unidad": "rollo",
+    "costoUnitario": 253.47,
+    "ultimoMovimiento": "2026-09-25"
+  },
+  {
+    "sku": "SKU-20602",
+    "descripcion": "Caja reforzado",
+    "bodega": "Colón",
+    "existencia": 14,
+    "minimo": 79,
+    "unidad": "rollo",
+    "costoUnitario": 211.2,
+    "ultimoMovimiento": "2026-08-04"
+  },
+  {
+    "sku": "SKU-20609",
+    "descripcion": "Montacargas batería industrial",
+    "bodega": "Tocumen",
+    "existencia": 620,
+    "minimo": 30,
+    "unidad": "und",
+    "costoUnitario": 232.02,
+    "ultimoMovimiento": "2026-09-04"
+  },
+  {
+    "sku": "SKU-20616",
+    "descripcion": "Film stretch industrial",
+    "bodega": "David",
+    "existencia": 5,
+    "minimo": 156,
+    "unidad": "rollo",
+    "costoUnitario": 59.92,
+    "ultimoMovimiento": "2026-08-06"
+  },
+  {
+    "sku": "SKU-20623",
+    "descripcion": "Montacargas batería estándar",
+    "bodega": "Panamá Pacífico",
+    "existencia": 14,
+    "minimo": 134,
+    "unidad": "caja",
+    "costoUnitario": 428.94,
+    "ultimoMovimiento": "2026-08-21"
+  },
+  {
+    "sku": "SKU-20630",
+    "descripcion": "Montacargas batería estándar",
+    "bodega": "Colón",
+    "existencia": 564,
+    "minimo": 167,
+    "unidad": "caja",
+    "costoUnitario": 732.62,
+    "ultimoMovimiento": "2026-10-29"
+  },
+  {
+    "sku": "SKU-20637",
+    "descripcion": "Montacargas batería XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 3,
+    "minimo": 96,
+    "unidad": "caja",
+    "costoUnitario": 819.84,
+    "ultimoMovimiento": "2026-08-20"
+  },
+  {
+    "sku": "SKU-20644",
+    "descripcion": "Contenedor plástico XL",
+    "bodega": "David",
+    "existencia": 80,
+    "minimo": 78,
+    "unidad": "und",
+    "costoUnitario": 39.99,
+    "ultimoMovimiento": "2026-09-29"
+  },
+  {
+    "sku": "SKU-20651",
+    "descripcion": "Fleje estándar",
+    "bodega": "David",
+    "existencia": 14,
+    "minimo": 101,
+    "unidad": "und",
+    "costoUnitario": 858.06,
+    "ultimoMovimiento": "2026-10-21"
+  },
+  {
+    "sku": "SKU-20658",
+    "descripcion": "Montacargas batería estándar",
+    "bodega": "Colón",
+    "existencia": 1506,
+    "minimo": 75,
+    "unidad": "caja",
+    "costoUnitario": 200.78,
+    "ultimoMovimiento": "2026-11-05"
+  },
+  {
+    "sku": "SKU-20665",
+    "descripcion": "Etiqueta térmica estándar",
+    "bodega": "David",
+    "existencia": 12,
+    "minimo": 72,
+    "unidad": "caja",
+    "costoUnitario": 73.44,
+    "ultimoMovimiento": "2026-10-16"
+  },
+  {
+    "sku": "SKU-20672",
+    "descripcion": "Caja reforzado",
+    "bodega": "Colón",
+    "existencia": 6,
+    "minimo": 40,
+    "unidad": "und",
+    "costoUnitario": 202.48,
+    "ultimoMovimiento": "2026-09-18"
+  },
+  {
+    "sku": "SKU-20679",
+    "descripcion": "Caja reforzado",
+    "bodega": "David",
+    "existencia": 7,
+    "minimo": 51,
+    "unidad": "caja",
+    "costoUnitario": 106.09,
+    "ultimoMovimiento": "2026-11-04"
+  },
+  {
+    "sku": "SKU-20686",
+    "descripcion": "Film stretch estándar",
+    "bodega": "David",
+    "existencia": 949,
+    "minimo": 179,
+    "unidad": "und",
+    "costoUnitario": 317.51,
+    "ultimoMovimiento": "2026-10-15"
+  },
+  {
+    "sku": "SKU-20693",
+    "descripcion": "Fleje reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 9,
+    "minimo": 45,
+    "unidad": "caja",
+    "costoUnitario": 678.36,
+    "ultimoMovimiento": "2026-08-23"
+  },
+  {
+    "sku": "SKU-20700",
+    "descripcion": "Montacargas batería XL",
+    "bodega": "David",
+    "existencia": 5,
+    "minimo": 182,
+    "unidad": "caja",
+    "costoUnitario": 711.21,
+    "ultimoMovimiento": "2026-08-30"
+  },
+  {
+    "sku": "SKU-20707",
+    "descripcion": "Caja estándar",
+    "bodega": "Colón",
+    "existencia": 4,
+    "minimo": 72,
+    "unidad": "rollo",
+    "costoUnitario": 198.1,
+    "ultimoMovimiento": "2026-11-01"
+  },
+  {
+    "sku": "SKU-20714",
+    "descripcion": "Esquinero industrial",
+    "bodega": "David",
+    "existencia": 7,
+    "minimo": 153,
+    "unidad": "rollo",
+    "costoUnitario": 153.38,
+    "ultimoMovimiento": "2026-10-05"
+  },
+  {
+    "sku": "SKU-20721",
+    "descripcion": "Etiqueta térmica estándar",
+    "bodega": "David",
+    "existencia": 8,
+    "minimo": 54,
+    "unidad": "rollo",
+    "costoUnitario": 617.6,
+    "ultimoMovimiento": "2026-10-05"
+  },
+  {
+    "sku": "SKU-20728",
+    "descripcion": "Fleje estándar",
+    "bodega": "David",
+    "existencia": 696,
+    "minimo": 155,
+    "unidad": "rollo",
+    "costoUnitario": 132.57,
+    "ultimoMovimiento": "2026-08-27"
+  },
+  {
+    "sku": "SKU-20735",
+    "descripcion": "Etiqueta térmica estándar",
+    "bodega": "Tocumen",
+    "existencia": 1595,
+    "minimo": 50,
+    "unidad": "und",
+    "costoUnitario": 641.64,
+    "ultimoMovimiento": "2026-11-05"
+  },
+  {
+    "sku": "SKU-20742",
+    "descripcion": "Contenedor plástico estándar",
+    "bodega": "Tocumen",
+    "existencia": 229,
+    "minimo": 172,
+    "unidad": "und",
+    "costoUnitario": 750.18,
+    "ultimoMovimiento": "2026-08-10"
+  },
+  {
+    "sku": "SKU-20749",
+    "descripcion": "Contenedor plástico reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 10,
+    "minimo": 121,
+    "unidad": "caja",
+    "costoUnitario": 813.43,
+    "ultimoMovimiento": "2026-10-16"
+  },
+  {
+    "sku": "SKU-20756",
+    "descripcion": "Film stretch XL",
+    "bodega": "Colón",
+    "existencia": 1,
+    "minimo": 95,
+    "unidad": "und",
+    "costoUnitario": 442.5,
+    "ultimoMovimiento": "2026-08-19"
+  },
+  {
+    "sku": "SKU-20763",
+    "descripcion": "Montacargas batería industrial",
+    "bodega": "David",
+    "existencia": 2230,
+    "minimo": 161,
+    "unidad": "rollo",
+    "costoUnitario": 377.91,
+    "ultimoMovimiento": "2026-09-23"
+  },
+  {
+    "sku": "SKU-20770",
+    "descripcion": "Montacargas batería estándar",
+    "bodega": "Colón",
+    "existencia": 7,
+    "minimo": 31,
+    "unidad": "rollo",
+    "costoUnitario": 260.69,
+    "ultimoMovimiento": "2026-09-25"
+  },
+  {
+    "sku": "SKU-20777",
+    "descripcion": "Film stretch industrial",
+    "bodega": "David",
+    "existencia": 27,
+    "minimo": 82,
+    "unidad": "caja",
+    "costoUnitario": 210.82,
+    "ultimoMovimiento": "2026-10-12"
+  },
+  {
+    "sku": "SKU-20784",
+    "descripcion": "Fleje reforzado",
+    "bodega": "Tocumen",
+    "existencia": 1456,
+    "minimo": 192,
+    "unidad": "rollo",
+    "costoUnitario": 47.82,
+    "ultimoMovimiento": "2026-09-15"
+  },
+  {
+    "sku": "SKU-20791",
+    "descripcion": "Film stretch XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 15,
+    "minimo": 21,
+    "unidad": "rollo",
+    "costoUnitario": 478.92,
+    "ultimoMovimiento": "2026-10-31"
+  },
+  {
+    "sku": "SKU-20798",
+    "descripcion": "Esquinero reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 805,
+    "minimo": 54,
+    "unidad": "caja",
+    "costoUnitario": 49.9,
+    "ultimoMovimiento": "2026-09-14"
+  },
+  {
+    "sku": "SKU-20805",
+    "descripcion": "Fleje industrial",
+    "bodega": "Tocumen",
+    "existencia": 4,
+    "minimo": 116,
+    "unidad": "rollo",
+    "costoUnitario": 469.22,
+    "ultimoMovimiento": "2026-08-30"
+  },
+  {
+    "sku": "SKU-20812",
+    "descripcion": "Film stretch XL",
+    "bodega": "Panamá Pacífico",
+    "existencia": 1399,
+    "minimo": 87,
+    "unidad": "und",
+    "costoUnitario": 755.76,
+    "ultimoMovimiento": "2026-08-31"
+  },
+  {
+    "sku": "SKU-20819",
+    "descripcion": "Film stretch reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 8,
+    "minimo": 60,
+    "unidad": "caja",
+    "costoUnitario": 632.6,
+    "ultimoMovimiento": "2026-09-14"
+  },
+  {
+    "sku": "SKU-20826",
+    "descripcion": "Contenedor plástico XL",
+    "bodega": "Colón",
+    "existencia": 1285,
+    "minimo": 178,
+    "unidad": "und",
+    "costoUnitario": 124.75,
+    "ultimoMovimiento": "2026-08-28"
+  },
+  {
+    "sku": "SKU-20833",
+    "descripcion": "Film stretch reforzado",
+    "bodega": "Panamá Pacífico",
+    "existencia": 87,
+    "minimo": 38,
+    "unidad": "und",
+    "costoUnitario": 373.08,
+    "ultimoMovimiento": "2026-10-30"
+  }
+]

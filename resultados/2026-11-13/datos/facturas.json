@@ -1,0 +1,1315 @@
+[
+  {
+    "numero": "FE-88001",
+    "emision": "2026-06-21",
+    "vencimiento": "2026-07-21",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 15,
+        "precioUnitario": 560.34
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 38,
+        "precioUnitario": 96.74
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 18,
+        "precioUnitario": 273.14
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 20,
+        "precioUnitario": 799.53
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 15,
+        "precioUnitario": 269.01
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 21,
+        "precioUnitario": 29.08
+      }
+    ],
+    "subtotal": 37634.17,
+    "itbms": 2634.39,
+    "total": 40268.56
+  },
+  {
+    "numero": "FE-88002",
+    "emision": "2026-08-03",
+    "vencimiento": "2026-09-02",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 39,
+        "precioUnitario": 503.17
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 34,
+        "precioUnitario": 170.27
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 17,
+        "precioUnitario": 227.79
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 39,
+        "precioUnitario": 304.86
+      }
+    ],
+    "subtotal": 41174.78,
+    "itbms": 2882.23,
+    "total": 44057.01
+  },
+  {
+    "numero": "FE-88003",
+    "emision": "2026-06-12",
+    "vencimiento": "2026-07-12",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 1,
+        "precioUnitario": 679.51
+      }
+    ],
+    "subtotal": 679.51,
+    "itbms": 47.57,
+    "total": 727.08
+  },
+  {
+    "numero": "FE-88004",
+    "emision": "2026-04-29",
+    "vencimiento": "2026-05-29",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 34,
+        "precioUnitario": 536.55
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 17,
+        "precioUnitario": 527.58
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 29,
+        "precioUnitario": 478.89
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 26,
+        "precioUnitario": 899.97
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 23,
+        "precioUnitario": 37.94
+      }
+    ],
+    "subtotal": 65371.21,
+    "itbms": 4575.98,
+    "total": 69947.19
+  },
+  {
+    "numero": "FE-88005",
+    "emision": "2026-04-05",
+    "vencimiento": "2026-05-05",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 15,
+        "precioUnitario": 714.53
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 5,
+        "precioUnitario": 299.43
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 14,
+        "precioUnitario": 348.66
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 19,
+        "precioUnitario": 113.09
+      }
+    ],
+    "subtotal": 19245.05,
+    "itbms": 1347.15,
+    "total": 20592.2
+  },
+  {
+    "numero": "FE-88006",
+    "emision": "2026-09-19",
+    "vencimiento": "2026-10-19",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 36,
+        "precioUnitario": 240.14
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 20,
+        "precioUnitario": 134.68
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 10,
+        "precioUnitario": 656.63
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 39,
+        "precioUnitario": 134.18
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 17,
+        "precioUnitario": 498.02
+      }
+    ],
+    "subtotal": 31604.3,
+    "itbms": 2212.3,
+    "total": 33816.6
+  },
+  {
+    "numero": "FE-88007",
+    "emision": "2026-09-18",
+    "vencimiento": "2026-10-18",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 1,
+        "precioUnitario": 705.19
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 17,
+        "precioUnitario": 145.28
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 30,
+        "precioUnitario": 98.93
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 40,
+        "precioUnitario": 669.5
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 25,
+        "precioUnitario": 52.2
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 7,
+        "precioUnitario": 818.9
+      }
+    ],
+    "subtotal": 39960.15,
+    "itbms": 2797.21,
+    "total": 42757.36
+  },
+  {
+    "numero": "FE-88008",
+    "emision": "2026-08-01",
+    "vencimiento": "2026-08-31",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 40,
+        "precioUnitario": 384.03
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 2,
+        "precioUnitario": 450.61
+      }
+    ],
+    "subtotal": 16262.42,
+    "itbms": 1138.37,
+    "total": 17400.79
+  },
+  {
+    "numero": "FE-88009",
+    "emision": "2026-06-29",
+    "vencimiento": "2026-07-29",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 10,
+        "precioUnitario": 400.11
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 16,
+        "precioUnitario": 836.88
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 22,
+        "precioUnitario": 621.57
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 22,
+        "precioUnitario": 517.36
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 12,
+        "precioUnitario": 818.84
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 19,
+        "precioUnitario": 347.46
+      }
+    ],
+    "subtotal": 58875.46,
+    "itbms": 4121.28,
+    "total": 62996.74
+  },
+  {
+    "numero": "FE-88010",
+    "emision": "2026-09-03",
+    "vencimiento": "2026-10-03",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 21,
+        "precioUnitario": 824.86
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 17,
+        "precioUnitario": 625.45
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 18,
+        "precioUnitario": 705.72
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 15,
+        "precioUnitario": 461.17
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 6,
+        "precioUnitario": 588.51
+      }
+    ],
+    "subtotal": 51106.28,
+    "itbms": 3577.44,
+    "total": 54683.72
+  },
+  {
+    "numero": "FE-88011",
+    "emision": "2026-07-07",
+    "vencimiento": "2026-08-06",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 9,
+        "precioUnitario": 51.41
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 40,
+        "precioUnitario": 628.3
+      }
+    ],
+    "subtotal": 25594.69,
+    "itbms": 1791.63,
+    "total": 27386.32
+  },
+  {
+    "numero": "FE-88012",
+    "emision": "2026-08-29",
+    "vencimiento": "2026-09-28",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 4,
+        "precioUnitario": 469.84
+      }
+    ],
+    "subtotal": 1879.36,
+    "itbms": 131.56,
+    "total": 2010.92
+  },
+  {
+    "numero": "FE-88013",
+    "emision": "2026-04-13",
+    "vencimiento": "2026-05-13",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 40,
+        "precioUnitario": 58.03
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 37,
+        "precioUnitario": 302.65
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 37,
+        "precioUnitario": 397.87
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 33,
+        "precioUnitario": 83.33
+      }
+    ],
+    "subtotal": 30990.33,
+    "itbms": 2169.32,
+    "total": 33159.65
+  },
+  {
+    "numero": "FE-88014",
+    "emision": "2026-05-31",
+    "vencimiento": "2026-06-30",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 34,
+        "precioUnitario": 385.62
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 2,
+        "precioUnitario": 551.64
+      }
+    ],
+    "subtotal": 14214.36,
+    "itbms": 995.01,
+    "total": 15209.37
+  },
+  {
+    "numero": "FE-88015",
+    "emision": "2026-08-10",
+    "vencimiento": "2026-09-09",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 20,
+        "precioUnitario": 82.45
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 14,
+        "precioUnitario": 711.6
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 30,
+        "precioUnitario": 59.74
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 25,
+        "precioUnitario": 531.82
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 38,
+        "precioUnitario": 686.07
+      }
+    ],
+    "subtotal": 52769.76,
+    "itbms": 3693.88,
+    "total": 56463.64
+  },
+  {
+    "numero": "FE-88016",
+    "emision": "2026-09-09",
+    "vencimiento": "2026-10-09",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 19,
+        "precioUnitario": 523.48
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 25,
+        "precioUnitario": 274.33
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 21,
+        "precioUnitario": 563.52
+      }
+    ],
+    "subtotal": 28638.29,
+    "itbms": 2004.68,
+    "total": 30642.97
+  },
+  {
+    "numero": "FE-88017",
+    "emision": "2026-04-14",
+    "vencimiento": "2026-05-14",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 22,
+        "precioUnitario": 394.99
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 3,
+        "precioUnitario": 390.32
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 7,
+        "precioUnitario": 710.66
+      }
+    ],
+    "subtotal": 14835.36,
+    "itbms": 1038.48,
+    "total": 15873.84
+  },
+  {
+    "numero": "FE-88018",
+    "emision": "2026-10-28",
+    "vencimiento": "2026-11-27",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 28,
+        "precioUnitario": 778.29
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 10,
+        "precioUnitario": 210.62
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 29,
+        "precioUnitario": 562.39
+      }
+    ],
+    "subtotal": 40207.63,
+    "itbms": 2814.53,
+    "total": 43022.16
+  },
+  {
+    "numero": "FE-88019",
+    "emision": "2026-06-09",
+    "vencimiento": "2026-07-09",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 26,
+        "precioUnitario": 459.13
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 21,
+        "precioUnitario": 777.32
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 37,
+        "precioUnitario": 872.09
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 36,
+        "precioUnitario": 540.19
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 11,
+        "precioUnitario": 670.63
+      }
+    ],
+    "subtotal": 87352.2,
+    "itbms": 6114.65,
+    "total": 93466.85
+  },
+  {
+    "numero": "FE-88020",
+    "emision": "2026-07-25",
+    "vencimiento": "2026-08-24",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 28,
+        "precioUnitario": 113.45
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 15,
+        "precioUnitario": 499.83
+      }
+    ],
+    "subtotal": 10674.05,
+    "itbms": 747.18,
+    "total": 11421.23
+  },
+  {
+    "numero": "FE-88021",
+    "emision": "2026-10-04",
+    "vencimiento": "2026-11-03",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 28,
+        "precioUnitario": 468.13
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 23,
+        "precioUnitario": 376.15
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 12,
+        "precioUnitario": 393.67
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 19,
+        "precioUnitario": 333.38
+      }
+    ],
+    "subtotal": 32817.35,
+    "itbms": 2297.21,
+    "total": 35114.56
+  },
+  {
+    "numero": "FE-88022",
+    "emision": "2026-05-19",
+    "vencimiento": "2026-06-18",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 1,
+        "precioUnitario": 893.2
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 3,
+        "precioUnitario": 768.88
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 11,
+        "precioUnitario": 32.02
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 16,
+        "precioUnitario": 553.25
+      }
+    ],
+    "subtotal": 12404.06,
+    "itbms": 868.28,
+    "total": 13272.34
+  },
+  {
+    "numero": "FE-88023",
+    "emision": "2026-09-20",
+    "vencimiento": "2026-10-20",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 14,
+        "precioUnitario": 802.96
+      }
+    ],
+    "subtotal": 11241.44,
+    "itbms": 786.9,
+    "total": 12028.34
+  },
+  {
+    "numero": "FE-88024",
+    "emision": "2026-04-20",
+    "vencimiento": "2026-05-20",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 40,
+        "precioUnitario": 872.82
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 33,
+        "precioUnitario": 307.06
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 26,
+        "precioUnitario": 23.9
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 37,
+        "precioUnitario": 417.24
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 13,
+        "precioUnitario": 523.29
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 15,
+        "precioUnitario": 383.06
+      }
+    ],
+    "subtotal": 73653.73,
+    "itbms": 5155.76,
+    "total": 78809.49
+  },
+  {
+    "numero": "FE-88025",
+    "emision": "2026-07-19",
+    "vencimiento": "2026-08-18",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 5,
+        "precioUnitario": 520.47
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 22,
+        "precioUnitario": 189.46
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 18,
+        "precioUnitario": 233.89
+      }
+    ],
+    "subtotal": 10980.49,
+    "itbms": 768.63,
+    "total": 11749.12
+  },
+  {
+    "numero": "FE-88026",
+    "emision": "2026-04-12",
+    "vencimiento": "2026-05-12",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 25,
+        "precioUnitario": 386.4
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 35,
+        "precioUnitario": 825.41
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 23,
+        "precioUnitario": 233.76
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 13,
+        "precioUnitario": 857.19
+      }
+    ],
+    "subtotal": 55069.3,
+    "itbms": 3854.85,
+    "total": 58924.15
+  },
+  {
+    "numero": "FE-88027",
+    "emision": "2026-04-29",
+    "vencimiento": "2026-05-29",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 36,
+        "precioUnitario": 50.47
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 29,
+        "precioUnitario": 338.37
+      }
+    ],
+    "subtotal": 11629.65,
+    "itbms": 814.08,
+    "total": 12443.73
+  },
+  {
+    "numero": "FE-88028",
+    "emision": "2026-04-05",
+    "vencimiento": "2026-05-05",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 29,
+        "precioUnitario": 491.72
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 37,
+        "precioUnitario": 386.39
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 35,
+        "precioUnitario": 235.02
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 14,
+        "precioUnitario": 678.35
+      }
+    ],
+    "subtotal": 46278.91,
+    "itbms": 3239.52,
+    "total": 49518.43
+  },
+  {
+    "numero": "FE-88029",
+    "emision": "2026-04-28",
+    "vencimiento": "2026-05-28",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 18,
+        "precioUnitario": 227.58
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 7,
+        "precioUnitario": 731.2
+      }
+    ],
+    "subtotal": 9214.84,
+    "itbms": 645.04,
+    "total": 9859.88
+  },
+  {
+    "numero": "FE-88030",
+    "emision": "2026-06-02",
+    "vencimiento": "2026-07-02",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 24,
+        "precioUnitario": 524.53
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 40,
+        "precioUnitario": 607.23
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 22,
+        "precioUnitario": 670.64
+      }
+    ],
+    "subtotal": 51632,
+    "itbms": 3614.24,
+    "total": 55246.24
+  },
+  {
+    "numero": "FE-88031",
+    "emision": "2026-10-26",
+    "vencimiento": "2026-11-25",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 5,
+        "precioUnitario": 147.64
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 5,
+        "precioUnitario": 863.98
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 34,
+        "precioUnitario": 702.09
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 35,
+        "precioUnitario": 776.14
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 19,
+        "precioUnitario": 529.85
+      }
+    ],
+    "subtotal": 66161.21,
+    "itbms": 4631.28,
+    "total": 70792.49
+  },
+  {
+    "numero": "FE-88032",
+    "emision": "2026-08-01",
+    "vencimiento": "2026-08-31",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 21,
+        "precioUnitario": 667.23
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 10,
+        "precioUnitario": 68.73
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 5,
+        "precioUnitario": 23.44
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 30,
+        "precioUnitario": 467.53
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 13,
+        "precioUnitario": 605.56
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 4,
+        "precioUnitario": 681.97
+      }
+    ],
+    "subtotal": 39442.39,
+    "itbms": 2760.97,
+    "total": 42203.36
+  },
+  {
+    "numero": "FE-88033",
+    "emision": "2026-06-25",
+    "vencimiento": "2026-07-25",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 16,
+        "precioUnitario": 886.98
+      }
+    ],
+    "subtotal": 14191.68,
+    "itbms": 993.42,
+    "total": 15185.1
+  },
+  {
+    "numero": "FE-88034",
+    "emision": "2026-06-10",
+    "vencimiento": "2026-07-10",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 24,
+        "precioUnitario": 771.67
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 1,
+        "precioUnitario": 758.66
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 32,
+        "precioUnitario": 375.52
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 2,
+        "precioUnitario": 704.59
+      }
+    ],
+    "subtotal": 32704.56,
+    "itbms": 2289.32,
+    "total": 34993.88
+  },
+  {
+    "numero": "FE-88035",
+    "emision": "2026-06-06",
+    "vencimiento": "2026-07-06",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 25,
+        "precioUnitario": 416.72
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 20,
+        "precioUnitario": 187.18
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 32,
+        "precioUnitario": 272.39
+      }
+    ],
+    "subtotal": 22878.08,
+    "itbms": 1601.47,
+    "total": 24479.55
+  },
+  {
+    "numero": "FE-88036",
+    "emision": "2026-09-13",
+    "vencimiento": "2026-10-13",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 22,
+        "precioUnitario": 215.33
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 38,
+        "precioUnitario": 645.94
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 40,
+        "precioUnitario": 512.01
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 2,
+        "precioUnitario": 806.42
+      }
+    ],
+    "subtotal": 51376.22,
+    "itbms": 3596.34,
+    "total": 54972.56
+  },
+  {
+    "numero": "FE-88037",
+    "emision": "2026-10-16",
+    "vencimiento": "2026-11-15",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 20,
+        "precioUnitario": 589.94
+      }
+    ],
+    "subtotal": 11798.8,
+    "itbms": 825.92,
+    "total": 12624.72
+  },
+  {
+    "numero": "FE-88038",
+    "emision": "2026-04-14",
+    "vencimiento": "2026-05-14",
+    "estado": "vencida",
+    "lineas": [
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 29,
+        "precioUnitario": 609.63
+      }
+    ],
+    "subtotal": 17679.27,
+    "itbms": 1237.55,
+    "total": 18916.82
+  },
+  {
+    "numero": "FE-88039",
+    "emision": "2026-07-08",
+    "vencimiento": "2026-08-07",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 35,
+        "precioUnitario": 650.43
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 26,
+        "precioUnitario": 399.81
+      },
+      {
+        "descripcion": "Flete Colón–Panamá",
+        "cantidad": 24,
+        "precioUnitario": 303.23
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 7,
+        "precioUnitario": 722.77
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 25,
+        "precioUnitario": 505.97
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 12,
+        "precioUnitario": 91.66
+      }
+    ],
+    "subtotal": 59246.19,
+    "itbms": 4147.23,
+    "total": 63393.42
+  },
+  {
+    "numero": "FE-88040",
+    "emision": "2026-09-26",
+    "vencimiento": "2026-10-26",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 34,
+        "precioUnitario": 468.1
+      }
+    ],
+    "subtotal": 15915.4,
+    "itbms": 1114.08,
+    "total": 17029.48
+  },
+  {
+    "numero": "FE-88041",
+    "emision": "2026-04-28",
+    "vencimiento": "2026-05-28",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 7,
+        "precioUnitario": 166.15
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 37,
+        "precioUnitario": 194.09
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 16,
+        "precioUnitario": 525.11
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 29,
+        "precioUnitario": 505.59
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 13,
+        "precioUnitario": 795.76
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 19,
+        "precioUnitario": 83.86
+      }
+    ],
+    "subtotal": 43346.47,
+    "itbms": 3034.25,
+    "total": 46380.72
+  },
+  {
+    "numero": "FE-88042",
+    "emision": "2026-04-21",
+    "vencimiento": "2026-05-21",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 5,
+        "precioUnitario": 294.44
+      },
+      {
+        "descripcion": "Despacho aduanal",
+        "cantidad": 10,
+        "precioUnitario": 755.24
+      }
+    ],
+    "subtotal": 9024.6,
+    "itbms": 631.72,
+    "total": 9656.32
+  },
+  {
+    "numero": "FE-88043",
+    "emision": "2026-04-09",
+    "vencimiento": "2026-05-09",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 7,
+        "precioUnitario": 657.26
+      },
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 15,
+        "precioUnitario": 399.3
+      }
+    ],
+    "subtotal": 10590.32,
+    "itbms": 741.32,
+    "total": 11331.64
+  },
+  {
+    "numero": "FE-88044",
+    "emision": "2026-09-13",
+    "vencimiento": "2026-10-13",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 31,
+        "precioUnitario": 476.61
+      },
+      {
+        "descripcion": "Manejo de carga",
+        "cantidad": 39,
+        "precioUnitario": 464.83
+      }
+    ],
+    "subtotal": 32903.28,
+    "itbms": 2303.23,
+    "total": 35206.51
+  },
+  {
+    "numero": "FE-88045",
+    "emision": "2026-06-08",
+    "vencimiento": "2026-07-08",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 26,
+        "precioUnitario": 280.05
+      }
+    ],
+    "subtotal": 7281.3,
+    "itbms": 509.69,
+    "total": 7790.99
+  },
+  {
+    "numero": "FE-88046",
+    "emision": "2026-06-05",
+    "vencimiento": "2026-07-05",
+    "estado": "anulada",
+    "lineas": [
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 37,
+        "precioUnitario": 596.36
+      },
+      {
+        "descripcion": "Almacenaje por pallet",
+        "cantidad": 24,
+        "precioUnitario": 134.82
+      },
+      {
+        "descripcion": "Seguro de mercancía",
+        "cantidad": 34,
+        "precioUnitario": 106.88
+      }
+    ],
+    "subtotal": 28934.92,
+    "itbms": 2025.44,
+    "total": 30960.36
+  },
+  {
+    "numero": "FE-88047",
+    "emision": "2026-06-30",
+    "vencimiento": "2026-07-30",
+    "estado": "pendiente",
+    "lineas": [
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 24,
+        "precioUnitario": 278.26
+      }
+    ],
+    "subtotal": 6678.24,
+    "itbms": 467.48,
+    "total": 7145.72
+  },
+  {
+    "numero": "FE-88048",
+    "emision": "2026-04-01",
+    "vencimiento": "2026-05-01",
+    "estado": "pagada",
+    "lineas": [
+      {
+        "descripcion": "Etiquetado",
+        "cantidad": 31,
+        "precioUnitario": 277.79
+      }
+    ],
+    "subtotal": 8611.49,
+    "itbms": 602.8,
+    "total": 9214.29
+  }
+]

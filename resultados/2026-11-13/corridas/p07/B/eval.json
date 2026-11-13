@@ -1,0 +1,32 @@
+{
+  "id": "p07",
+  "cond": "B",
+  "compila": true,
+  "erroresTS": 0,
+  "verificadorOK": true,
+  "fallos": {
+    "scrollHorizontal": 0,
+    "erroresConsolaRed": 0,
+    "tactilChico": 0,
+    "sinNombre": 0,
+    "sinAlt": 0,
+    "textoChico": 0,
+    "porAncho": {}
+  },
+  "verificadorSalida": [
+    "OK: 1 URL × 3 anchos. Capturas en <trabajo>/runs/p07/B/_eval/capturas/"
+  ],
+  "lineasCodigo": 696,
+  "herramientas": {
+    "llamadas21st": 1,
+    "corrioVerificador": 0,
+    "porHerramienta": {
+      "Read": 8,
+      "Bash": 15,
+      "ToolSearch": 1,
+      "mcp__plugin_21st_21st__get_inspiration": 1,
+      "Write": 1,
+      "SubagentHandback": 1
+    }
+  }
+}

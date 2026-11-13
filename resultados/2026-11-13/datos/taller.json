@@ -1,0 +1,80 @@
+{
+  "titulo": "IA aplicada a operaciones logísticas",
+  "subtitulo": "Taller práctico de 2 días para equipos de operaciones",
+  "fechas": [
+    "2026-12-03",
+    "2026-12-04"
+  ],
+  "horario": "8:30 a 16:30",
+  "sede": "Ciudad del Saber, Panamá",
+  "precioUSD": 690,
+  "precioGrupoUSD": 590,
+  "cupo": 24,
+  "inscritos": 17,
+  "facilitador": {
+    "nombre": "Laura Méndez",
+    "bio": "Consultora en procesos y analítica, 12 años en cadena de suministro."
+  },
+  "agenda": [
+    {
+      "dia": 1,
+      "bloques": [
+        [
+          "8:30",
+          "Bienvenida y diagnóstico"
+        ],
+        [
+          "9:30",
+          "Qué hace y qué no hace un modelo de lenguaje"
+        ],
+        [
+          "11:00",
+          "Caso: conciliación de órdenes"
+        ],
+        [
+          "13:30",
+          "Prompts para reportes operativos"
+        ],
+        [
+          "15:00",
+          "Laboratorio en equipos"
+        ]
+      ]
+    },
+    {
+      "dia": 2,
+      "bloques": [
+        [
+          "8:30",
+          "Automatizar seguimiento de entregas"
+        ],
+        [
+          "10:30",
+          "Riesgos, datos y privacidad"
+        ],
+        [
+          "13:30",
+          "Diseño de un piloto propio"
+        ],
+        [
+          "15:30",
+          "Presentaciones y cierre"
+        ]
+      ]
+    }
+  ],
+  "preguntas": [
+    [
+      "¿Necesito saber programar?",
+      "No. Trabajamos con herramientas sin código."
+    ],
+    [
+      "¿Entregan certificado?",
+      "Sí, de participación."
+    ],
+    [
+      "¿Puedo pagar con transferencia?",
+      "Sí, hasta 5 días antes del inicio."
+    ]
+  ]
+}

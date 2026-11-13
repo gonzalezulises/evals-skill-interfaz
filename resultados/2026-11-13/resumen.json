@@ -1,0 +1,640 @@
+{
+  "total": {
+    "pedidos": 10,
+    "prefiereA": 10,
+    "prefiereB": 0,
+    "empates": 0,
+    "mediaJuezA": 4.45,
+    "mediaJuezB": 3.63,
+    "verificadorOK_A": 10,
+    "verificadorOK_B": 3,
+    "porCriterio": {
+      "responsive": 0.2,
+      "jerarquia": 1,
+      "intencion": 1.3,
+      "estados": 2.4,
+      "accesibilidad": 0.6,
+      "graficos": -0.17,
+      "formularios": 0,
+      "calidad_visual": 0.4
+    }
+  },
+  "filas": [
+    {
+      "id": "p01",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 4,
+        "corrioVerificador": 3,
+        "lineasCodigo": 922,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 4,
+          "intencion": 5,
+          "estados": 5,
+          "accesibilidad": 5,
+          "graficos": 3,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 4.29,
+        "defectos": [
+          "El monto comprometido se muestra con centavos (USD 3,636,858.17), que solo agregan ruido en la cifra principal",
+          "En «Atrasadas por antigüedad» todos los tramos usan el mismo verde azulado: no se distingue por color la gravedad de más de 90 días, y el verde contradice el rojo del atraso",
+          "La minigráfica mensual de la tarjeta principal no muestra valores ni eje; solo se lee la forma",
+          "A 390 px los chips de estado se desbordan con scroll horizontal y ocultan la mayoría de los filtros sin indicarlo",
+          "En las tarjetas de móvil se trunca la fecha de entrega («entrega 31 m…»)",
+          "No hay vista por proveedor, la dimensión que más usa un gerente de compras"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": false,
+        "fallosVerificador": 17,
+        "detalleFallos": {
+          "tactilChico": 17
+        },
+        "llamadas21st": 1,
+        "corrioVerificador": 0,
+        "lineasCodigo": 952,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 4,
+          "intencion": 4,
+          "estados": 2,
+          "accesibilidad": 4,
+          "graficos": 4,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 3.71,
+        "defectos": [
+          "Sin estado de carga ni de error: los datos se importan de forma estática en App.tsx; solo existe el estado vacío «No hay órdenes con estos filtros»",
+          "Los cuatro KPI son tarjetas idénticas en grilla, sin que el tamaño marque la cifra principal (escritorio y tableta)",
+          "A 390 px las etiquetas de los KPI se parten de forma irregular («Comprometido / atrasado», «Entregas completas a / tiempo») y las tarjetas quedan desalineadas",
+          "A 390 px las pestañas «Atrasadas (139) / Comprometidas (151) / Todas (300)» se parten en dos líneas",
+          "Áreas táctiles justas en móvil: pestañas con py-1.5, botones de paginación de 36 px (size-9) y botón «Quitar filtro» con p-0.5",
+          "En el gráfico por proveedor, las etiquetas se truncan a 390 px («Cementos del Pacífi…»)"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "Y le da un peso claro al dinero comprometido, con su reparto atrasado contra en plazo, y destaca las atrasadas en una tarjeta de alerta que lleva directo a la tabla. Además trata la carga y el error con reintento, y en móvil usa áreas táctiles de 44 px. X ofrece un mejor desglose por proveedor y abre por defecto en la vista de atrasadas, pero no tiene estado de carga ni de error, y sus cuatro KPI son cajas iguales."
+    },
+    {
+      "id": "p03",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 5,
+        "corrioVerificador": 6,
+        "lineasCodigo": 776,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 4,
+          "intencion": 5,
+          "estados": 5,
+          "accesibilidad": 4,
+          "graficos": null,
+          "formularios": 4,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 4.29,
+        "defectos": [
+          "En escritorio, «0 de 4 secciones completas» aparece dos veces (índice lateral y barra inferior) (captura de escritorio)",
+          "La ayuda del DV se parte en dos líneas, «Dígito / verificador.», en las capturas de tableta y escritorio; a 390 px la del RUC también se corta de forma rara",
+          "No hay paso de revisión antes de enviar: el resumen de datos aparece solo después de enviar, en Confirmacion",
+          "En móvil se oculta el botón «Cambiar» del archivo adjunto (hidden sm:inline-flex); para reemplazarlo hay que borrarlo y volver a elegirlo",
+          "Los campos no llevan marca de obligatorio; solo lo dice el texto de introducción",
+          "La barra fija tapa contenido en las capturas de página completa a 390 y 768 px; en uso real depende del padding pb-28"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": false,
+        "fallosVerificador": 2,
+        "detalleFallos": {
+          "tactilChico": 2
+        },
+        "llamadas21st": 2,
+        "corrioVerificador": 0,
+        "lineasCodigo": 868,
+        "juez": {
+          "responsive": 5,
+          "jerarquia": 4,
+          "intencion": 3,
+          "estados": 4,
+          "accesibilidad": 4,
+          "graficos": null,
+          "formularios": 5,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 4.14,
+        "defectos": [
+          "Todas las secciones son tarjetas idénticas apiladas, sin indicador de progreso ni índice; en escritorio a 1440 px la columna de 720 px deja vacíos los laterales",
+          "El error de envío ('No pudimos enviar la solicitud…') está maquetado, pero enviarSolicitud en lib/proveedor.ts nunca falla, así que ese estado es inalcanzable",
+          "Falta el tipo de cuenta (corriente/ahorros) en Datos bancarios, un dato que suele hacer falta para pagar",
+          "La ayuda del campo se mantiene debajo del error y aumenta el ruido visual cuando hay errores (Campo.tsx)"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "Y responde mejor al uso diario: barra de envío fija en móvil con progreso «N de 4 secciones», índice lateral con estado por sección en escritorio, aviso de posible proveedor duplicado y un error de envío alcanzable con botón «Reintentar envío». X es más limpio y tiene un paso de revisión previo muy bien resuelto, pero es una pila de tarjetas iguales sin ayudas de orientación, y su rama de error de envío nunca se dispara."
+    },
+    {
+      "id": "p04",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 4,
+        "corrioVerificador": 4,
+        "lineasCodigo": 1088,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 5,
+          "intencion": 5,
+          "estados": 5,
+          "accesibilidad": 5,
+          "graficos": 4,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 4.57,
+        "defectos": [
+          "Móvil 390: los cinco KPIs más los filtros (buscar, gerente, riesgo, vista, comparar por) ocupan casi toda la primera pantalla antes del primer proyecto",
+          "Móvil 390: en el ranking por defecto no se ve ninguna cifra del proyecto, solo la insignia y el resumen de alertas; para comparar valores hay que cambiar 'Comparar por' o abrir el detalle",
+          "Escritorio 1440: la tabla corta las columnas Ejecutado y siguientes en el borde derecho, sin ninguna señal de que hay scroll horizontal (solo lo dice el aria-label)",
+          "Tabla: el fondo rojo o ámbar, el icono y el nombre en azul de enlace compiten en cada fila; queda cargada en la vista de 1440",
+          "Código: fetchProyectos nunca falla ni devuelve vacío, así que los estados de error y vacío están escritos pero no se pueden provocar"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": false,
+        "fallosVerificador": 240,
+        "detalleFallos": {
+          "textoChico": 240
+        },
+        "llamadas21st": 0,
+        "corrioVerificador": 0,
+        "lineasCodigo": 654,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 3,
+          "intencion": 4,
+          "estados": 2,
+          "accesibilidad": 4,
+          "graficos": 4,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 3.57,
+        "defectos": [
+          "Sin estado de carga ni de error: los datos se importan estáticos en el bundle (App.tsx); solo está tratado el vacío al filtrar",
+          "KPI 'Sobre costo 27 de 40' y 'Con atraso 20' cuentan cualquier desviación > 0 o atraso > 0 d; sin umbral, la cifra no separa lo grave de lo trivial, y los KPIs no se pueden pulsar para filtrar",
+          "Escritorio y tableta: casi todas las celdas llevan color de texto (0 d y 0 incidentes en verde, 4.54 en verde), así que el color pierde la función de alerta y depende solo del color, sin icono",
+          "Móvil 390: cada tarjeta repite seis mini-cifras con rótulos de 11 px; 40 tarjetas dan una página de unos 7 255 px, pesada de recorrer",
+          "Móvil 390: el filtro de riesgo comprime 'Alto 16 / Medio 5 / Bajo 19' en cuatro pastillas apretadas y el texto 'Riesgo' queda oculto visualmente"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "X ordena por defecto 'más alertas primero' y dice en cada fila por qué el proyecto preocupa (p. ej. '3 crít. — desviación de costo, días de atraso'), así que en el celular el director sabe qué mirar sin leer números. Además sus KPIs tienen umbrales con sentido (>30 días, >10 %), una comparación (financiero vs físico, +3 pts), filtran al pulsarlos y la pantalla trata la carga, el error con reintento y el vacío. Y es más densa y compacta, pero pinta casi todas las celdas de color, cuenta 'sobre costo' con cualquier desviación > 0 y no tiene estados de carga ni de error."
+    },
+    {
+      "id": "p08",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 4,
+        "corrioVerificador": 3,
+        "lineasCodigo": 765,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 5,
+          "intencion": 5,
+          "estados": 5,
+          "accesibilidad": 4,
+          "graficos": 4,
+          "formularios": 4,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 4.38,
+        "defectos": [
+          "Móvil 390: las pestañas de bodega se cortan por la derecha ('D…' de David) sin ninguna señal de que hay scroll horizontal",
+          "Móvil 390: las descripciones largas se truncan en las tarjetas ('Montacargas batería in…', 'Etiqueta térmica están…')",
+          "Las barras de existencia contra mínimo son tan finas (h-1.5) y de color tan tenue que casi no se leen en las tres capturas",
+          "Tableta 768: la tabla pierde las columnas Bodega y Último movimiento, y en la vista 'Todas' no se sabe a qué bodega pertenece cada fila",
+          "En caso de error se cambian los datos por el aviso (no queda el último dato bueno visible)"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 0,
+        "corrioVerificador": 0,
+        "lineasCodigo": 588,
+        "juez": {
+          "responsive": 3,
+          "jerarquia": 3,
+          "intencion": 3,
+          "estados": 5,
+          "accesibilidad": 4,
+          "graficos": 3,
+          "formularios": 4,
+          "calidad_visual": 3
+        },
+        "mediaJuez": 3.5,
+        "defectos": [
+          "Móvil 390: muestra las 120 tarjetas sin paginar y la página mide unos 23 000 px; el mismo problema en tableta (11 600 px)",
+          "Las filas y tarjetas no son interactivas: no hay forma de llegar al detalle de un artículo",
+          "KPI (Artículos, Bajo mínimo, Agotados, Valor) todos del mismo tamaño, sin cifra protagonista ni acción hacia los faltantes",
+          "Escritorio 1440: la tabla de 9 columnas es densa, el texto es pequeño y el costo unitario, el valor y el mínimo compiten visualmente",
+          "Tableta 768: la grilla de tarjetas a dos columnas es apretada y difícil de escanear"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "X arranca por lo que el gerente necesita hacer: una cifra protagonista de artículos por reponer, con su desglose, el costo de reponer y un botón directo a los faltantes; además, cada fila abre un detalle y la lista se pagina de 30 en 30. Y pone cuatro KPI del mismo peso, vuelca los 120 artículos de una vez (23 000 px a 390 px de ancho) y sus filas no llevan a ningún detalle. Las dos manejan bien la carga, el vacío y el error; Y además conserva los datos anteriores cuando falla la API."
+    },
+    {
+      "id": "p02",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 4,
+        "corrioVerificador": 4,
+        "lineasCodigo": 879,
+        "juez": {
+          "responsive": 5,
+          "jerarquia": 4,
+          "intencion": 5,
+          "estados": 5,
+          "accesibilidad": 5,
+          "graficos": 4,
+          "formularios": 4,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 4.5,
+        "defectos": [
+          "La rampa de antigüedad va toda en azules (App/index.css --age-1..4): el tramo de más de 90 días, el de mayor riesgo, no destaca, ni en la barra ni en las mini-barras de la tabla.",
+          "El KPI 'Saldo con más de 90 días' ($383 k) no tiene ningún tono de alerta, aunque es una cifra de riesgo (captura de escritorio, segunda tarjeta).",
+          "Facturado en azul y cobrado en naranja son dos colores categóricos sin jerarquía; el naranja sugiere alerta en la serie que es buena noticia (gráfico 'Cobrado frente a facturado').",
+          "En tableta se oculta la columna Antigüedad de la tabla (hidden lg:table-cell) y se pierde la composición por tramo de cada cliente.",
+          "Las mini-barras de la tabla son todas del mismo ancho, así que no comparan visualmente el tamaño de las deudas entre clientes.",
+          "La fila de la tabla tiene onClick y el botón interno repite la acción; funciona, pero duplica el manejador."
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": false,
+        "fallosVerificador": 22,
+        "detalleFallos": {
+          "tactilChico": 4,
+          "textoChico": 18
+        },
+        "llamadas21st": 2,
+        "corrioVerificador": 0,
+        "lineasCodigo": 819,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 4,
+          "intencion": 4,
+          "estados": 1,
+          "accesibilidad": 4,
+          "graficos": 5,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 3.71,
+        "defectos": [
+          "No trata carga, error ni vacío: importa cartera.json estáticamente (lib/cartera.ts), y mensual[mensual.length-1] y anterior fallarían con datos vacíos o con un solo mes.",
+          "No hay buscador de clientes: para encontrar uno fuera del top 10 hay que expandir los 60 y recorrer la lista.",
+          "El control segmentado de orden y el botón 'Ver los 60 clientes' miden 36 px de alto (h-9), por debajo de 44 px como área táctil en móvil.",
+          "El grupo de orden usa role=radiogroup y role=radio sin navegación con flechas ni roving tabindex: el patrón ARIA queda incompleto.",
+          "Las filas de antigüedad no son interactivas: no se llega desde un tramo a los clientes que lo componen.",
+          "La columna +90 días va toda en rojo en 7 filas seguidas y suma ruido rojo a las píldoras de límite (captura de escritorio, tabla)."
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "Ambas resuelven bien las tres preguntas del encargo, con tarjetas en móvil y un drawer de detalle. X gana para el uso diario: cada tramo de antigüedad filtra la tabla de clientes, tiene buscador con etiqueta visible y estado vacío con salida, y trata la carga (esqueleto), el error (con Reintentar) y el archivo vacío. Y no tiene ninguno de esos estados porque importa el JSON de forma estática. Y tiene mejor semántica de color (rampa verde→rojo por riesgo, facturado en gris y cobrado en azul) y ordenación por +90 días o por uso del límite, pero eso no compensa la falta de estados ni de búsqueda."
+    },
+    {
+      "id": "p05",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 5,
+        "corrioVerificador": 5,
+        "lineasCodigo": 758,
+        "juez": {
+          "responsive": 5,
+          "jerarquia": 5,
+          "intencion": 5,
+          "estados": 5,
+          "accesibilidad": 5,
+          "graficos": 4,
+          "formularios": null,
+          "calidad_visual": 5
+        },
+        "mediaJuez": 4.86,
+        "defectos": [
+          "La tarjeta «Pendiente que vence primero» muestra el 9 may 2026, una fecha ya pasada, como si fuera próxima, sin marcarla como atrasada (las tres capturas)",
+          "A 390 px la fila de filtros se corta a la derecha («Pendientes 9» queda a medias). Es un scroll interno intencional, pero nada indica que haya más filtros (inicio-movil.png)",
+          "En escritorio, las tarjetas de Vencido y Pendiente tienen mucho espacio vacío entre el texto y el enlace porque se estiran a la altura de la tarjeta de saldo (inicio-escritorio.png)",
+          "Usa «$» en lugar de «B/.» para montos con ITBMS panameño, lo que podría confundir con otras monedas"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 2,
+        "corrioVerificador": 0,
+        "lineasCodigo": 608,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 3,
+          "intencion": 3,
+          "estados": 2,
+          "accesibilidad": 4,
+          "graficos": null,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 3.33,
+        "defectos": [
+          "Tres tarjetas de resumen (Por pagar, Vencido, Pagado) del mismo tamaño y peso: el vencido no destaca más allá del color del monto y no lleva a ninguna acción (capturas a 768 y 1440)",
+          "Lista las 48 facturas sin paginar: la página en móvil mide unos 5200 px de alto (inicio-movil.png)",
+          "En el listado, la fecha de vencimiento de las facturas vencidas no se distingue del resto: solo la etiqueta indica el atraso",
+          "Sin estados de carga ni de error: App.tsx importa el JSON estático y src/lib/api.ts es un resto de otro encargo (fetchInventario) que no se usa",
+          "Las tarjetas móviles muestran el vencimiento en texto xs gris tenue, de baja legibilidad (inicio-movil.png)"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "Y ordena la pantalla según lo que el cliente necesita hacer: el saldo por pagar con su desglose vencido/pendiente, una alerta de lo vencido con acceso directo al filtro y la próxima factura por vencer, y además resalta en rojo las fechas vencidas del listado. También pagina el listado y trata carga (esqueleto), error (con Reintentar) y vacío. X es limpio y correcto, pero sus tres cajas de resumen tienen el mismo peso, vuelca las 48 facturas sin paginar y no tiene estados de carga ni de error."
+    },
+    {
+      "id": "p06",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 6,
+        "corrioVerificador": 4,
+        "lineasCodigo": 556,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 5,
+          "intencion": 4,
+          "estados": 4,
+          "accesibilidad": 4,
+          "graficos": null,
+          "formularios": 5,
+          "calidad_visual": 5
+        },
+        "mediaJuez": 4.43,
+        "defectos": [
+          "En móvil y tableta la navegación por secciones se oculta sin menú alternativo (hidden lg:block); solo queda el botón «Inscribirme»",
+          "El formulario está al final de la página: en escritorio hay que bajar unos 2000 px para llegar (captura de 1440)",
+          "El estado de error existe, pero el envío simulado nunca falla: el bloque catch no se puede alcanzar",
+          "El texto de ayuda desaparece cuando aparece el error del campo (ayuda && !error)",
+          "A 768 px la ayuda «Opcional.» del teléfono queda separada bajo el campo y la fila de Empresa y Teléfono se ve desalineada",
+          "Hay mucho espacio vacío bajo el bloque de la facilitadora en móvil, antes de «Precio» (captura de 390)"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": false,
+        "fallosVerificador": 1,
+        "detalleFallos": {
+          "tactilChico": 1
+        },
+        "llamadas21st": 3,
+        "corrioVerificador": 0,
+        "lineasCodigo": 417,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 4,
+          "intencion": 4,
+          "estados": 3,
+          "accesibilidad": 4,
+          "graficos": null,
+          "formularios": 4,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 3.86,
+        "defectos": [
+          "No hay estado de error al enviar: enviar() no tiene try/catch, así que un fallo dejaría el botón en «Enviando…» sin mensaje (App.tsx, Formulario)",
+          "En escritorio no hay ningún CTA en la cabecera (el botón «Inscribirme» lleva lg:hidden) ni navegación entre secciones; solo el formulario lateral fijo",
+          "La validación solo corre al enviar; no hay validación en línea al salir del campo",
+          "Los campos obligatorios no se marcan; solo los opcionales llevan «(opcional)»",
+          "Los tres beneficios de «De qué trata» son cajas iguales con poco contenido (captura de 768 y 1440)",
+          "A 768 px el formulario cae al final de una página larga, después de las preguntas frecuentes, y no hay navegación para llegar a él salvo el botón del hero"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "Y tiene una portada más clara: título, CTA principal y secundario, y una tarjeta con fechas, sede y cupo con su barra. Además trae navegación por secciones, la insignia «Ahorras USD 100» y un formulario más completo: validación al salir del campo, marca de obligatorios, aviso de error de envío y estado de cupo completo. X es sólida y su formulario fijo en escritorio es un acierto, pero se ve más plana y no trata el fallo del envío."
+    },
+    {
+      "id": "p07",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 5,
+        "corrioVerificador": 4,
+        "lineasCodigo": 1077,
+        "juez": {
+          "responsive": 5,
+          "jerarquia": 5,
+          "intencion": 5,
+          "estados": 5,
+          "accesibilidad": 4,
+          "graficos": 4,
+          "formularios": null,
+          "calidad_visual": 5
+        },
+        "mediaJuez": 4.71,
+        "defectos": [
+          "Móvil 390: la cola «Por atender primero» muestra 8 tarjetas seguidas y alarga mucho la página (unos 2700 px), y además lo hace detrás de la lista de agentes",
+          "Escritorio 1440: la tarjeta «Primera respuesta por agente» termina mucho antes que la cola de su lado y deja un hueco grande debajo",
+          "Gráfico de agentes: la barra más larga es el agente más lento, todas en el mismo azul y sin línea de meta, así que no se ve quién incumple",
+          "Tableta 768: las etiquetas de los tres KPI se parten en dos líneas («Cumplimiento de SLA · 30 / días») y el bloque queda apretado",
+          "El texto «43 respondidos fuera de SLA» junto a «107 abiertos» es ambiguo: no queda claro si los 43 son abiertos o del total"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 1,
+        "corrioVerificador": 0,
+        "lineasCodigo": 696,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 3,
+          "intencion": 3,
+          "estados": 1,
+          "accesibilidad": 4,
+          "graficos": 4,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 3.29,
+        "defectos": [
+          "Sin estados de carga, vacío ni error: App.tsx importa los datos en estático (TODOS) y api.ts es un resto de otro proyecto (fetchInventario de inventario.json)",
+          "KPI sin comparación con un período anterior ni con una meta global: «58 %» de SLA y «13.6 h» aparecen sin referencia",
+          "La «Mediana 1.ª respuesta» no se puede pulsar, a diferencia de los otros tres KPI, aunque tiene la misma forma de tarjeta",
+          "«Críticos abiertos 19» en rojo con la nota «objetivo 4 h» mezcla un conteo con un umbral de tiempo, y la nota confunde",
+          "No hay una cola de tickets priorizada en la pantalla: para saber qué atender hay que abrir el drawer",
+          "Cuatro KPI en cajas iguales seguidas de dos tarjetas también iguales: la grilla es uniforme y ninguna cifra domina",
+          "Formato decimal inconsistente con el español (13.6 h, 10.1 h con punto)"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "X da una cifra protagonista (107 abiertos, 43 fuera de SLA) con desglose por prioridad, compara cada KPI contra los 30 días anteriores y añade una cola «Por atender primero» que dice qué hacer hoy, además de un filtro global de prioridad. También trata carga (esqueleto), vacío y error con reintento, mientras que Y importa el JSON de forma estática y no tiene ningún estado. Y es limpio y legible, pero es un informe sin comparación ni acción."
+    },
+    {
+      "id": "p09",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 4,
+        "corrioVerificador": 3,
+        "lineasCodigo": 1038,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 5,
+          "intencion": 5,
+          "estados": 4,
+          "accesibilidad": 5,
+          "graficos": 4,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 4.43,
+        "defectos": [
+          "La lista de comentarios muestra textos repetidos sin agruparlos ni contarlos («La carga en temporada alta es excesiva» aparece dos veces seguidas en las tres capturas)",
+          "A 390 px la matriz por área queda en scroll horizontal interno con las columnas cortadas (se ve «Carga c» truncado) en vez de pasar a tarjetas",
+          "No marca las celdas con base baja (n = 15, n = 16, n = 19) y en el mapa de calor colorea igual una celda de 15 respuestas que una de 119",
+          "En escritorio la tarjeta «Puntaje por dimensión» deja un hueco blanco grande bajo el eje para igualar la altura de Comentarios",
+          "No hay estado de carga: el código solo distingue error, vacío y ok"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": false,
+        "fallosVerificador": 49,
+        "detalleFallos": {
+          "tactilChico": 7,
+          "textoChico": 42
+        },
+        "llamadas21st": 1,
+        "corrioVerificador": 0,
+        "lineasCodigo": 397,
+        "juez": {
+          "responsive": 5,
+          "jerarquia": 4,
+          "intencion": 3,
+          "estados": 1,
+          "accesibilidad": 4,
+          "graficos": 4,
+          "formularios": null,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 3.57,
+        "defectos": [
+          "No trata ningún estado: importa clima.json directamente y no tiene carga, vacío ni error (App.tsx no contiene nada de esto)",
+          "No hay drill-down: ni las dimensiones ni las áreas ni la franja de «Mayor caída» se pueden pulsar para ver el detalle",
+          "A 390 px el gráfico de dimensiones queda comprimido en unos 80 px, los puntos se solapan (Compensación, Carga de trabajo) y no se lee la magnitud",
+          "La leyenda dice «Escala 1–5» pero el eje va de 2,5 a 4,5 sin avisar que está recortado",
+          "Los chips de filtro de comentarios miden 36 px de alto (min-h-9), por debajo del área táctil recomendada en móvil",
+          "En escritorio queda un hueco blanco grande bajo el gráfico de dimensiones"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "X lleva al detalle de forma obvia: cada dimensión, cada área y la tarjeta de mayor caída abren un drawer con foco atrapado, y los comentarios se filtran por área y tema. Además trata los estados de error y vacío y suma la fila de total empresa. Y se lee muy bien y en móvil pasa la tabla a tarjetas con mejor criterio, pero es una pantalla estática: no tiene drill-down ni estados de carga, vacío o error."
+    },
+    {
+      "id": "p10",
+      "A": {
+        "compila": true,
+        "verificadorOK": true,
+        "fallosVerificador": 0,
+        "detalleFallos": {},
+        "llamadas21st": 5,
+        "corrioVerificador": 6,
+        "lineasCodigo": 777,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 4,
+          "intencion": 4,
+          "estados": 4,
+          "accesibilidad": 4,
+          "graficos": null,
+          "formularios": 4,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 4,
+        "defectos": [
+          "A 390 px la pestaña «Cerrar cuenta» de la navegación queda cortada y solo se ve su icono en el borde derecho (captura móvil, barra de secciones)",
+          "Quitar a un miembro usa window.confirm nativo en vez de un diálogo propio, lo que rompe la consistencia con el diálogo de cierre (equipo.tsx)",
+          "A 768 px la tabla de usuarios parte el encabezado «ÚLTIMO ACCESO» y la insignia «Invitación pendiente» en dos líneas (captura tableta)",
+          "Las notificaciones se guardan con cada toggle y lanzan un toast por cambio, sin forma de deshacer ni manejo de error de guardado (perfil.tsx, NotificacionesSection)",
+          "Los guardados simulados (perfil, invitación, cierre) no tratan el fallo: solo la carga del equipo tiene estado de error",
+          "Botón «Guardar perfil» deshabilitado con contraste bajo (capturas a todos los anchos)"
+        ]
+      },
+      "B": {
+        "compila": true,
+        "verificadorOK": false,
+        "fallosVerificador": 48,
+        "detalleFallos": {
+          "tactilChico": 42,
+          "textoChico": 6
+        },
+        "llamadas21st": 3,
+        "corrioVerificador": 0,
+        "lineasCodigo": 943,
+        "juez": {
+          "responsive": 4,
+          "jerarquia": 4,
+          "intencion": 4,
+          "estados": 2,
+          "accesibilidad": 3,
+          "graficos": null,
+          "formularios": 4,
+          "calidad_visual": 4
+        },
+        "mediaJuez": 3.57,
+        "defectos": [
+          "Sin estados de carga, vacío ni error en ninguna sección: los guardar() se esperan sin try/catch y un fallo deja el botón sin aviso (Perfil.tsx, Notificaciones.tsx, Equipo.tsx)",
+          "Switches de 24 px de alto y botones/inputs de 40 px: área táctil insuficiente a 390 px (ui.tsx, captura móvil de Notificaciones)",
+          "En móvil, cada evento de notificaciones apila tres switches en dos filas (Correo/En la app y luego SMS), lo que alarga mucho la página (captura móvil)",
+          "La explicación de los roles queda escondida tras «¿Qué puede hacer cada rol?» en lugar de mostrarse junto al selector al invitar",
+          "Los botones primarios deshabilitados (Guardar cambios / Guardar preferencias) se ven con poco contraste a cualquier ancho"
+        ]
+      },
+      "preferencia": "A",
+      "motivo": "Visualmente las dos están a la par: limpias, con la zona de cierre bien separada y confirmación por frase. Y gana porque el equipo tiene carga con esqueleto, error con «Reintentar» y estado vacío útil, áreas táctiles de 44 px en switches, botones y selects, y la ayuda del rol visible al invitar. X no trata ningún fallo de carga ni de guardado, y sus switches de 24 px quedan chicos en móvil."
+    }
+  ]
+}

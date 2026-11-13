@@ -1,0 +1,21 @@
+{
+  "X": { "responsive": 4, "jerarquia": 4, "intencion": 4, "estados": 2, "accesibilidad": 3, "graficos": null, "formularios": 4, "calidad_visual": 4 },
+  "Y": { "responsive": 4, "jerarquia": 4, "intencion": 4, "estados": 4, "accesibilidad": 4, "graficos": null, "formularios": 4, "calidad_visual": 4 },
+  "preferencia": "Y",
+  "motivo": "Visualmente las dos están a la par: limpias, con la zona de cierre bien separada y confirmación por frase. Y gana porque el equipo tiene carga con esqueleto, error con «Reintentar» y estado vacío útil, áreas táctiles de 44 px en switches, botones y selects, y la ayuda del rol visible al invitar. X no trata ningún fallo de carga ni de guardado, y sus switches de 24 px quedan chicos en móvil.",
+  "defectos_X": [
+    "Sin estados de carga, vacío ni error en ninguna sección: los guardar() se esperan sin try/catch y un fallo deja el botón sin aviso (Perfil.tsx, Notificaciones.tsx, Equipo.tsx)",
+    "Switches de 24 px de alto y botones/inputs de 40 px: área táctil insuficiente a 390 px (ui.tsx, captura móvil de Notificaciones)",
+    "En móvil, cada evento de notificaciones apila tres switches en dos filas (Correo/En la app y luego SMS), lo que alarga mucho la página (captura móvil)",
+    "La explicación de los roles queda escondida tras «¿Qué puede hacer cada rol?» en lugar de mostrarse junto al selector al invitar",
+    "Los botones primarios deshabilitados (Guardar cambios / Guardar preferencias) se ven con poco contraste a cualquier ancho"
+  ],
+  "defectos_Y": [
+    "A 390 px la pestaña «Cerrar cuenta» de la navegación queda cortada y solo se ve su icono en el borde derecho (captura móvil, barra de secciones)",
+    "Quitar a un miembro usa window.confirm nativo en vez de un diálogo propio, lo que rompe la consistencia con el diálogo de cierre (equipo.tsx)",
+    "A 768 px la tabla de usuarios parte el encabezado «ÚLTIMO ACCESO» y la insignia «Invitación pendiente» en dos líneas (captura tableta)",
+    "Las notificaciones se guardan con cada toggle y lanzan un toast por cambio, sin forma de deshacer ni manejo de error de guardado (perfil.tsx, NotificacionesSection)",
+    "Los guardados simulados (perfil, invitación, cierre) no tratan el fallo: solo la carga del equipo tiene estado de error",
+    "Botón «Guardar perfil» deshabilitado con contraste bajo (capturas a todos los anchos)"
+  ]
+}

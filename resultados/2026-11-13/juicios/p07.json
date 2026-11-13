@@ -1,0 +1,22 @@
+{
+  "X": { "responsive": 5, "jerarquia": 5, "intencion": 5, "estados": 5, "accesibilidad": 4, "graficos": 4, "formularios": null, "calidad_visual": 5 },
+  "Y": { "responsive": 4, "jerarquia": 3, "intencion": 3, "estados": 1, "accesibilidad": 4, "graficos": 4, "formularios": null, "calidad_visual": 4 },
+  "preferencia": "X",
+  "motivo": "X da una cifra protagonista (107 abiertos, 43 fuera de SLA) con desglose por prioridad, compara cada KPI contra los 30 días anteriores y añade una cola «Por atender primero» que dice qué hacer hoy, además de un filtro global de prioridad. También trata carga (esqueleto), vacío y error con reintento, mientras que Y importa el JSON de forma estática y no tiene ningún estado. Y es limpio y legible, pero es un informe sin comparación ni acción.",
+  "defectos_X": [
+    "Móvil 390: la cola «Por atender primero» muestra 8 tarjetas seguidas y alarga mucho la página (unos 2700 px), y además lo hace detrás de la lista de agentes",
+    "Escritorio 1440: la tarjeta «Primera respuesta por agente» termina mucho antes que la cola de su lado y deja un hueco grande debajo",
+    "Gráfico de agentes: la barra más larga es el agente más lento, todas en el mismo azul y sin línea de meta, así que no se ve quién incumple",
+    "Tableta 768: las etiquetas de los tres KPI se parten en dos líneas («Cumplimiento de SLA · 30 / días») y el bloque queda apretado",
+    "El texto «43 respondidos fuera de SLA» junto a «107 abiertos» es ambiguo: no queda claro si los 43 son abiertos o del total"
+  ],
+  "defectos_Y": [
+    "Sin estados de carga, vacío ni error: App.tsx importa los datos en estático (TODOS) y api.ts es un resto de otro proyecto (fetchInventario de inventario.json)",
+    "KPI sin comparación con un período anterior ni con una meta global: «58 %» de SLA y «13.6 h» aparecen sin referencia",
+    "La «Mediana 1.ª respuesta» no se puede pulsar, a diferencia de los otros tres KPI, aunque tiene la misma forma de tarjeta",
+    "«Críticos abiertos 19» en rojo con la nota «objetivo 4 h» mezcla un conteo con un umbral de tiempo, y la nota confunde",
+    "No hay una cola de tickets priorizada en la pantalla: para saber qué atender hay que abrir el drawer",
+    "Cuatro KPI en cajas iguales seguidas de dos tarjetas también iguales: la grilla es uniforme y ninguna cifra domina",
+    "Formato decimal inconsistente con el español (13.6 h, 10.1 h con punto)"
+  ]
+}

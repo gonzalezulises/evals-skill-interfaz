@@ -1,0 +1,20 @@
+{
+  "X": { "responsive": 4, "jerarquia": 5, "intencion": 5, "estados": 5, "accesibilidad": 4, "graficos": 4, "formularios": 4, "calidad_visual": 4 },
+  "Y": { "responsive": 3, "jerarquia": 3, "intencion": 3, "estados": 5, "accesibilidad": 4, "graficos": 3, "formularios": 4, "calidad_visual": 3 },
+  "preferencia": "X",
+  "motivo": "X arranca por lo que el gerente necesita hacer: una cifra protagonista de artículos por reponer, con su desglose, el costo de reponer y un botón directo a los faltantes; además, cada fila abre un detalle y la lista se pagina de 30 en 30. Y pone cuatro KPI del mismo peso, vuelca los 120 artículos de una vez (23 000 px a 390 px de ancho) y sus filas no llevan a ningún detalle. Las dos manejan bien la carga, el vacío y el error; Y además conserva los datos anteriores cuando falla la API.",
+  "defectos_X": [
+    "Móvil 390: las pestañas de bodega se cortan por la derecha ('D…' de David) sin ninguna señal de que hay scroll horizontal",
+    "Móvil 390: las descripciones largas se truncan en las tarjetas ('Montacargas batería in…', 'Etiqueta térmica están…')",
+    "Las barras de existencia contra mínimo son tan finas (h-1.5) y de color tan tenue que casi no se leen en las tres capturas",
+    "Tableta 768: la tabla pierde las columnas Bodega y Último movimiento, y en la vista 'Todas' no se sabe a qué bodega pertenece cada fila",
+    "En caso de error se cambian los datos por el aviso (no queda el último dato bueno visible)"
+  ],
+  "defectos_Y": [
+    "Móvil 390: muestra las 120 tarjetas sin paginar y la página mide unos 23 000 px; el mismo problema en tableta (11 600 px)",
+    "Las filas y tarjetas no son interactivas: no hay forma de llegar al detalle de un artículo",
+    "KPI (Artículos, Bajo mínimo, Agotados, Valor) todos del mismo tamaño, sin cifra protagonista ni acción hacia los faltantes",
+    "Escritorio 1440: la tabla de 9 columnas es densa, el texto es pequeño y el costo unitario, el valor y el mínimo compiten visualmente",
+    "Tableta 768: la grilla de tarjetas a dos columnas es apretada y difícil de escanear"
+  ]
+}

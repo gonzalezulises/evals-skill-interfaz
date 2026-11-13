@@ -1,0 +1,452 @@
+{
+  "respuestas": 412,
+  "invitados": 530,
+  "enps": {
+    "promotores": 148,
+    "pasivos": 151,
+    "detractores": 113
+  },
+  "dimensiones": [
+    {
+      "dimension": "Liderazgo",
+      "puntaje": 3.96,
+      "anterior": 3.58
+    },
+    {
+      "dimension": "Reconocimiento",
+      "puntaje": 3.56,
+      "anterior": 3.05
+    },
+    {
+      "dimension": "Carga de trabajo",
+      "puntaje": 3.99,
+      "anterior": 4.26
+    },
+    {
+      "dimension": "Comunicación",
+      "puntaje": 4.36,
+      "anterior": 3.99
+    },
+    {
+      "dimension": "Desarrollo",
+      "puntaje": 3.58,
+      "anterior": 2.88
+    },
+    {
+      "dimension": "Compensación",
+      "puntaje": 2.93,
+      "anterior": 3.07
+    },
+    {
+      "dimension": "Herramientas",
+      "puntaje": 3.08,
+      "anterior": 3.9
+    }
+  ],
+  "porArea": [
+    {
+      "area": "Operaciones",
+      "dimension": "Liderazgo",
+      "puntaje": 3.59,
+      "n": 15
+    },
+    {
+      "area": "Operaciones",
+      "dimension": "Reconocimiento",
+      "puntaje": 3.79,
+      "n": 36
+    },
+    {
+      "area": "Operaciones",
+      "dimension": "Carga de trabajo",
+      "puntaje": 4.02,
+      "n": 102
+    },
+    {
+      "area": "Operaciones",
+      "dimension": "Comunicación",
+      "puntaje": 2.96,
+      "n": 63
+    },
+    {
+      "area": "Operaciones",
+      "dimension": "Desarrollo",
+      "puntaje": 2.41,
+      "n": 119
+    },
+    {
+      "area": "Operaciones",
+      "dimension": "Compensación",
+      "puntaje": 3.21,
+      "n": 58
+    },
+    {
+      "area": "Operaciones",
+      "dimension": "Herramientas",
+      "puntaje": 4.05,
+      "n": 55
+    },
+    {
+      "area": "Bodega",
+      "dimension": "Liderazgo",
+      "puntaje": 4.37,
+      "n": 55
+    },
+    {
+      "area": "Bodega",
+      "dimension": "Reconocimiento",
+      "puntaje": 3.38,
+      "n": 42
+    },
+    {
+      "area": "Bodega",
+      "dimension": "Carga de trabajo",
+      "puntaje": 2.4,
+      "n": 19
+    },
+    {
+      "area": "Bodega",
+      "dimension": "Comunicación",
+      "puntaje": 4.42,
+      "n": 114
+    },
+    {
+      "area": "Bodega",
+      "dimension": "Desarrollo",
+      "puntaje": 3.13,
+      "n": 45
+    },
+    {
+      "area": "Bodega",
+      "dimension": "Compensación",
+      "puntaje": 3.99,
+      "n": 22
+    },
+    {
+      "area": "Bodega",
+      "dimension": "Herramientas",
+      "puntaje": 4.02,
+      "n": 115
+    },
+    {
+      "area": "Flota",
+      "dimension": "Liderazgo",
+      "puntaje": 4.36,
+      "n": 71
+    },
+    {
+      "area": "Flota",
+      "dimension": "Reconocimiento",
+      "puntaje": 4.07,
+      "n": 94
+    },
+    {
+      "area": "Flota",
+      "dimension": "Carga de trabajo",
+      "puntaje": 2.84,
+      "n": 25
+    },
+    {
+      "area": "Flota",
+      "dimension": "Comunicación",
+      "puntaje": 3.71,
+      "n": 57
+    },
+    {
+      "area": "Flota",
+      "dimension": "Desarrollo",
+      "puntaje": 4.59,
+      "n": 51
+    },
+    {
+      "area": "Flota",
+      "dimension": "Compensación",
+      "puntaje": 3.19,
+      "n": 46
+    },
+    {
+      "area": "Flota",
+      "dimension": "Herramientas",
+      "puntaje": 2.63,
+      "n": 27
+    },
+    {
+      "area": "Finanzas",
+      "dimension": "Liderazgo",
+      "puntaje": 3.41,
+      "n": 47
+    },
+    {
+      "area": "Finanzas",
+      "dimension": "Reconocimiento",
+      "puntaje": 3.51,
+      "n": 45
+    },
+    {
+      "area": "Finanzas",
+      "dimension": "Carga de trabajo",
+      "puntaje": 4.32,
+      "n": 108
+    },
+    {
+      "area": "Finanzas",
+      "dimension": "Comunicación",
+      "puntaje": 3.22,
+      "n": 30
+    },
+    {
+      "area": "Finanzas",
+      "dimension": "Desarrollo",
+      "puntaje": 3.8,
+      "n": 28
+    },
+    {
+      "area": "Finanzas",
+      "dimension": "Compensación",
+      "puntaje": 2.59,
+      "n": 30
+    },
+    {
+      "area": "Finanzas",
+      "dimension": "Herramientas",
+      "puntaje": 2.9,
+      "n": 16
+    },
+    {
+      "area": "Comercial",
+      "dimension": "Liderazgo",
+      "puntaje": 3.77,
+      "n": 32
+    },
+    {
+      "area": "Comercial",
+      "dimension": "Reconocimiento",
+      "puntaje": 2.29,
+      "n": 32
+    },
+    {
+      "area": "Comercial",
+      "dimension": "Carga de trabajo",
+      "puntaje": 4.13,
+      "n": 53
+    },
+    {
+      "area": "Comercial",
+      "dimension": "Comunicación",
+      "puntaje": 4.22,
+      "n": 69
+    },
+    {
+      "area": "Comercial",
+      "dimension": "Desarrollo",
+      "puntaje": 4.46,
+      "n": 53
+    },
+    {
+      "area": "Comercial",
+      "dimension": "Compensación",
+      "puntaje": 3.78,
+      "n": 90
+    },
+    {
+      "area": "Comercial",
+      "dimension": "Herramientas",
+      "puntaje": 3.72,
+      "n": 45
+    },
+    {
+      "area": "TI",
+      "dimension": "Liderazgo",
+      "puntaje": 3.9,
+      "n": 90
+    },
+    {
+      "area": "TI",
+      "dimension": "Reconocimiento",
+      "puntaje": 2.94,
+      "n": 118
+    },
+    {
+      "area": "TI",
+      "dimension": "Carga de trabajo",
+      "puntaje": 3.34,
+      "n": 46
+    },
+    {
+      "area": "TI",
+      "dimension": "Comunicación",
+      "puntaje": 3.89,
+      "n": 24
+    },
+    {
+      "area": "TI",
+      "dimension": "Desarrollo",
+      "puntaje": 2.76,
+      "n": 35
+    },
+    {
+      "area": "TI",
+      "dimension": "Compensación",
+      "puntaje": 2.34,
+      "n": 81
+    },
+    {
+      "area": "TI",
+      "dimension": "Herramientas",
+      "puntaje": 3.29,
+      "n": 34
+    }
+  ],
+  "comentarios": [
+    {
+      "area": "Flota",
+      "tema": "Reconocimiento",
+      "texto": "La carga en temporada alta es excesiva."
+    },
+    {
+      "area": "Flota",
+      "tema": "Herramientas",
+      "texto": "La carga en temporada alta es excesiva."
+    },
+    {
+      "area": "TI",
+      "tema": "Desarrollo",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Operaciones",
+      "tema": "Herramientas",
+      "texto": "Mi jefe me reconoce el trabajo."
+    },
+    {
+      "area": "Operaciones",
+      "tema": "Carga de trabajo",
+      "texto": "No me entero de los cambios a tiempo."
+    },
+    {
+      "area": "Flota",
+      "tema": "Carga de trabajo",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Comercial",
+      "tema": "Herramientas",
+      "texto": "Buen ambiente con el equipo."
+    },
+    {
+      "area": "Bodega",
+      "tema": "Liderazgo",
+      "texto": "Mi jefe me reconoce el trabajo."
+    },
+    {
+      "area": "Operaciones",
+      "tema": "Comunicación",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "TI",
+      "tema": "Reconocimiento",
+      "texto": "Buen ambiente con el equipo."
+    },
+    {
+      "area": "Comercial",
+      "tema": "Herramientas",
+      "texto": "La carga en temporada alta es excesiva."
+    },
+    {
+      "area": "Operaciones",
+      "tema": "Carga de trabajo",
+      "texto": "Mi jefe me reconoce el trabajo."
+    },
+    {
+      "area": "Finanzas",
+      "tema": "Carga de trabajo",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Comercial",
+      "tema": "Desarrollo",
+      "texto": "Mi jefe me reconoce el trabajo."
+    },
+    {
+      "area": "Flota",
+      "tema": "Reconocimiento",
+      "texto": "La carga en temporada alta es excesiva."
+    },
+    {
+      "area": "TI",
+      "tema": "Compensación",
+      "texto": "Quisiera un plan de carrera claro."
+    },
+    {
+      "area": "Bodega",
+      "tema": "Liderazgo",
+      "texto": "La carga en temporada alta es excesiva."
+    },
+    {
+      "area": "TI",
+      "tema": "Desarrollo",
+      "texto": "No me entero de los cambios a tiempo."
+    },
+    {
+      "area": "TI",
+      "tema": "Herramientas",
+      "texto": "No me entero de los cambios a tiempo."
+    },
+    {
+      "area": "Comercial",
+      "tema": "Herramientas",
+      "texto": "La carga en temporada alta es excesiva."
+    },
+    {
+      "area": "TI",
+      "tema": "Liderazgo",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Operaciones",
+      "tema": "Carga de trabajo",
+      "texto": "Quisiera un plan de carrera claro."
+    },
+    {
+      "area": "Bodega",
+      "tema": "Herramientas",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Finanzas",
+      "tema": "Comunicación",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Comercial",
+      "tema": "Liderazgo",
+      "texto": "Quisiera un plan de carrera claro."
+    },
+    {
+      "area": "Comercial",
+      "tema": "Desarrollo",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Flota",
+      "tema": "Carga de trabajo",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Finanzas",
+      "tema": "Desarrollo",
+      "texto": "Faltan herramientas para el turno de noche."
+    },
+    {
+      "area": "Comercial",
+      "tema": "Reconocimiento",
+      "texto": "No me entero de los cambios a tiempo."
+    },
+    {
+      "area": "Comercial",
+      "tema": "Herramientas",
+      "texto": "Mi jefe me reconoce el trabajo."
+    }
+  ]
+}

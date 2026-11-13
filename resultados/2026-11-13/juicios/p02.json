@@ -1,0 +1,22 @@
+{
+  "X": { "responsive": 5, "jerarquia": 4, "intencion": 5, "estados": 5, "accesibilidad": 5, "graficos": 4, "formularios": 4, "calidad_visual": 4 },
+  "Y": { "responsive": 4, "jerarquia": 4, "intencion": 4, "estados": 1, "accesibilidad": 4, "graficos": 5, "formularios": null, "calidad_visual": 4 },
+  "preferencia": "X",
+  "motivo": "Ambas resuelven bien las tres preguntas del encargo, con tarjetas en móvil y un drawer de detalle. X gana para el uso diario: cada tramo de antigüedad filtra la tabla de clientes, tiene buscador con etiqueta visible y estado vacío con salida, y trata la carga (esqueleto), el error (con Reintentar) y el archivo vacío. Y no tiene ninguno de esos estados porque importa el JSON de forma estática. Y tiene mejor semántica de color (rampa verde→rojo por riesgo, facturado en gris y cobrado en azul) y ordenación por +90 días o por uso del límite, pero eso no compensa la falta de estados ni de búsqueda.",
+  "defectos_X": [
+    "La rampa de antigüedad va toda en azules (App/index.css --age-1..4): el tramo de más de 90 días, el de mayor riesgo, no destaca, ni en la barra ni en las mini-barras de la tabla.",
+    "El KPI 'Saldo con más de 90 días' ($383 k) no tiene ningún tono de alerta, aunque es una cifra de riesgo (captura de escritorio, segunda tarjeta).",
+    "Facturado en azul y cobrado en naranja son dos colores categóricos sin jerarquía; el naranja sugiere alerta en la serie que es buena noticia (gráfico 'Cobrado frente a facturado').",
+    "En tableta se oculta la columna Antigüedad de la tabla (hidden lg:table-cell) y se pierde la composición por tramo de cada cliente.",
+    "Las mini-barras de la tabla son todas del mismo ancho, así que no comparan visualmente el tamaño de las deudas entre clientes.",
+    "La fila de la tabla tiene onClick y el botón interno repite la acción; funciona, pero duplica el manejador."
+  ],
+  "defectos_Y": [
+    "No trata carga, error ni vacío: importa cartera.json estáticamente (lib/cartera.ts), y mensual[mensual.length-1] y anterior fallarían con datos vacíos o con un solo mes.",
+    "No hay buscador de clientes: para encontrar uno fuera del top 10 hay que expandir los 60 y recorrer la lista.",
+    "El control segmentado de orden y el botón 'Ver los 60 clientes' miden 36 px de alto (h-9), por debajo de 44 px como área táctil en móvil.",
+    "El grupo de orden usa role=radiogroup y role=radio sin navegación con flechas ni roving tabindex: el patrón ARIA queda incompleto.",
+    "Las filas de antigüedad no son interactivas: no se llega desde un tramo a los clientes que lo componen.",
+    "La columna +90 días va toda en rojo en 7 filas seguidas y suma ruido rojo a las píldoras de límite (captura de escritorio, tabla)."
+  ]
+}

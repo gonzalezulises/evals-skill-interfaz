@@ -1,0 +1,20 @@
+{
+  "X": { "responsive": 4, "jerarquia": 5, "intencion": 5, "estados": 5, "accesibilidad": 5, "graficos": 4, "formularios": null, "calidad_visual": 4 },
+  "Y": { "responsive": 4, "jerarquia": 3, "intencion": 4, "estados": 2, "accesibilidad": 4, "graficos": 4, "formularios": null, "calidad_visual": 4 },
+  "preferencia": "X",
+  "motivo": "X ordena por defecto 'más alertas primero' y dice en cada fila por qué el proyecto preocupa (p. ej. '3 crít. — desviación de costo, días de atraso'), así que en el celular el director sabe qué mirar sin leer números. Además sus KPIs tienen umbrales con sentido (>30 días, >10 %), una comparación (financiero vs físico, +3 pts), filtran al pulsarlos y la pantalla trata la carga, el error con reintento y el vacío. Y es más densa y compacta, pero pinta casi todas las celdas de color, cuenta 'sobre costo' con cualquier desviación > 0 y no tiene estados de carga ni de error.",
+  "defectos_X": [
+    "Móvil 390: los cinco KPIs más los filtros (buscar, gerente, riesgo, vista, comparar por) ocupan casi toda la primera pantalla antes del primer proyecto",
+    "Móvil 390: en el ranking por defecto no se ve ninguna cifra del proyecto, solo la insignia y el resumen de alertas; para comparar valores hay que cambiar 'Comparar por' o abrir el detalle",
+    "Escritorio 1440: la tabla corta las columnas Ejecutado y siguientes en el borde derecho, sin ninguna señal de que hay scroll horizontal (solo lo dice el aria-label)",
+    "Tabla: el fondo rojo o ámbar, el icono y el nombre en azul de enlace compiten en cada fila; queda cargada en la vista de 1440",
+    "Código: fetchProyectos nunca falla ni devuelve vacío, así que los estados de error y vacío están escritos pero no se pueden provocar"
+  ],
+  "defectos_Y": [
+    "Sin estado de carga ni de error: los datos se importan estáticos en el bundle (App.tsx); solo está tratado el vacío al filtrar",
+    "KPI 'Sobre costo 27 de 40' y 'Con atraso 20' cuentan cualquier desviación > 0 o atraso > 0 d; sin umbral, la cifra no separa lo grave de lo trivial, y los KPIs no se pueden pulsar para filtrar",
+    "Escritorio y tableta: casi todas las celdas llevan color de texto (0 d y 0 incidentes en verde, 4.54 en verde), así que el color pierde la función de alerta y depende solo del color, sin icono",
+    "Móvil 390: cada tarjeta repite seis mini-cifras con rótulos de 11 px; 40 tarjetas dan una página de unos 7 255 px, pesada de recorrer",
+    "Móvil 390: el filtro de riesgo comprime 'Alto 16 / Medio 5 / Bajo 19' en cuatro pastillas apretadas y el texto 'Riesgo' queda oculto visualmente"
+  ]
+}
