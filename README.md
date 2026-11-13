@@ -2,6 +2,8 @@
 
 Experimento A/B para medir si el skill [`estandar-interfaz`](skill/SKILL.md), un estándar de diseño y UX para agentes de código, mejora las pantallas que construye un agente de IA. El método es una adaptación de las [vibe-tests de Astryx](https://github.com/meta/astryx/tree/main/internal/vibe-tests) (Meta): mismo encargo, agentes sin contexto previo, solo cambia el sistema que se prueba y un juez califica a ciegas.
 
+> **Datos ficticios.** Todas las pantallas usan datos inventados por [`gen-datos.mjs`](harness/gen-datos.mjs) con semilla fija: la empresa (Andes Logística), los proveedores, los clientes, las personas y todos los montos. Cualquier parecido con una empresa o persona real es coincidencia.
+
 ## Resultado
 
 | | Con skill | Sin skill |
