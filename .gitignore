@@ -1,0 +1,4 @@
+node_modules/
+dist/
+harness/proyecto-base/src/data/
+.DS_Store

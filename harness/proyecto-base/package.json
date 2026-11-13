@@ -1,0 +1,30 @@
+{
+  "name": "andes-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "*",
+    "recharts": "*",
+    "clsx": "*",
+    "tailwind-merge": "*",
+    "class-variance-authority": "*",
+    "motion": "*"
+  },
+  "devDependencies": {
+    "vite": "*",
+    "@vitejs/plugin-react": "*",
+    "typescript": "*",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "*",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "nota": "Batería de pedidos para medir el skill estandar-interfaz. El texto de cada pedido es idéntico en ambas condiciones. 'categoria' y 'que_mide' son solo para el análisis: nunca se le muestran al agente constructor.",
+  "piloto": ["p01", "p03", "p04", "p08"],
+  "pedidos": [
+    { "id": "p01", "categoria": "tablero-kpi", "que_mide": "jerarquía de cifras, tarjetas con intención, tabla grande, drill-down",
+      "texto": "Haz un tablero de órdenes de compra para el gerente de compras de Andes Logística. Los datos están en src/data/ordenes.json (300 órdenes). Quiere ver cuánto dinero hay comprometido, qué órdenes están atrasadas y poder revisar el detalle de cada orden." },
+    { "id": "p02", "categoria": "tablero-finanzas", "que_mide": "gráficos, antigüedad de saldos, comparación en el tiempo",
+      "texto": "Haz el tablero de cartera por cobrar para la gerente de finanzas. Quiere ver la antigüedad de los saldos, los clientes que más deben y cómo va lo cobrado frente a lo facturado cada mes. Datos en src/data/cartera.json." },
+    { "id": "p03", "categoria": "formulario", "que_mide": "etiquetas, validación en el campo, botón principal único, confirmación",
+      "texto": "Haz el formulario de alta de proveedor: razón social, RUC, persona de contacto, correo, teléfono, banco, número de cuenta, categoría del proveedor y documentos adjuntos (aviso de operación y certificado bancario). Tiene que validar los datos y confirmar el envío. No hay backend: simula el envío." },
+    { "id": "p04", "categoria": "responsive-tabla-ancha", "que_mide": "tabla de 12 columnas en móvil sin scroll de página",
+      "texto": "El director de operaciones quiere comparar los 40 proyectos activos con sus 12 indicadores (src/data/proyectos.json). Lo consulta casi siempre desde el celular. Haz esa pantalla." },
+    { "id": "p05", "categoria": "portal-detalle", "que_mide": "listado, filtro, detalle en drawer, estados de factura",
+      "texto": "Haz el portal donde el cliente consulta sus facturas: el listado, un filtro por estado y el detalle de cada factura con sus líneas e impuestos. Datos en src/data/facturas.json." },
+    { "id": "p06", "categoria": "landing-formulario", "que_mide": "landing con jerarquía, agenda, CTA, formulario",
+      "texto": "Haz la página de inscripción al taller cuyo contenido está en src/data/taller.json: de qué trata, la agenda de los dos días, quién lo facilita, el precio, las preguntas frecuentes y el formulario de inscripción." },
+    { "id": "p07", "categoria": "tablero-operativo", "que_mide": "SLA, prioridades, comparación por agente",
+      "texto": "Haz el tablero de escalamientos de soporte: tickets abiertos por prioridad, cumplimiento del SLA y tiempos de respuesta por agente. Datos en src/data/tickets.json." },
+    { "id": "p08", "categoria": "estados", "que_mide": "carga, vacío y error manejados; reintento",
+      "texto": "Haz la pantalla de inventario por bodega. Los datos llegan de una API lenta que a veces falla o devuelve la bodega vacía; está simulada en src/lib/api.ts. La pantalla tiene que funcionar bien en todos esos casos." },
+    { "id": "p09", "categoria": "tablero-encuesta", "que_mide": "eNPS, mapa de calor por área, comentarios",
+      "texto": "Haz el tablero de resultados de la encuesta de clima para Recursos Humanos: eNPS, puntaje por dimensión comparado con la medición anterior, resultados por área y los comentarios. Datos en src/data/clima.json." },
+    { "id": "p10", "categoria": "configuracion", "que_mide": "secciones, formularios, acción destructiva con confirmación",
+      "texto": "Haz la pantalla de configuración de la cuenta: perfil, preferencias de notificaciones, usuarios del equipo con sus roles y una zona para cerrar la cuenta." }
+  ]
+}
